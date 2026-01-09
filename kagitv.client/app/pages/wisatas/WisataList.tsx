@@ -35,7 +35,7 @@ export function WisataList(): JSX.Element {
     const fetchWisatas = async () => {
         setLoading(true);
         try {
-            const response = await fetch("api/v1/tourney/wisatas");
+            const response = await fetch("api/v1/traveloka/wisatas");
             if (!response.ok) {
                 throw new Error(`Error: ${response.status}`);
             }
@@ -55,7 +55,7 @@ export function WisataList(): JSX.Element {
 
 
     const handleEdit = (wisata: IWisata) => {
-        navigate(`/editwisata/${wisata.id}`);
+        navigate(`/editwisata/${wisata.wisataid}`);
     };
 
     const handleDelete = (wisata: IWisata) => {
@@ -66,7 +66,7 @@ export function WisataList(): JSX.Element {
     const confirmDelete = async () => {
         if (selectedWisata) {
             const response = await fetch(
-                `api/v1/tourney/wisatas/${selectedWisata.id}`,
+                `api/v1/tourney/wisatas/${selectedWisata.wisataid}`,
                 { method: "DELETE" }
             );
             if (response.ok) {
@@ -79,28 +79,22 @@ export function WisataList(): JSX.Element {
 
     const columns: TableColumnDefinition<IWisata>[] = [
         createTableColumn<IWisata>({
-            columnId: "wisataNumber",
-            compare: (a, b) => a.wisataNumber - b.wisataNumber,
-            renderHeaderCell: () => "Number",
-            renderCell: item => <TableCellLayout>{item.wisataNumber}</TableCellLayout>,
-        }),
-        createTableColumn<IWisata>({
-            columnId: "wisataName",
-            compare: (a, b) => a.wisataName.localeCompare(b.wisataName),
+            columnId: "Nama",
+            compare: (a, b) => a.Nama.localeCompare(b.Nama),
             renderHeaderCell: () => "Name",
-            renderCell: item => <TableCellLayout>{item.wisataName}</TableCellLayout>,
+            renderCell: item => <TableCellLayout>{item.Nama}</TableCellLayout>,
         }),
         createTableColumn<IWisata>({
-            columnId: "wisataAmount",
-            compare: (a, b) => a.wisataAmount - b.wisataAmount,
+            columnId: "Kota",
+            compare: (a, b) => a.Kota.localeCompare(b.Kota),
+            renderHeaderCell: () => "Name",
+            renderCell: item => <TableCellLayout>{item.Kota}</TableCellLayout>,
+        }),
+        createTableColumn<IWisata>({
+            columnId: "Harga",
+            compare: (a, b) => a.Harga - b.Harga,
             renderHeaderCell: () => "Amount",
-            renderCell: item => <TableCellLayout>{item.wisataAmount}</TableCellLayout>,
-        }),
-        createTableColumn<IWisata>({
-            columnId: "wisataPercentage",
-            compare: (a, b) => a.wisataPercentage - b.wisataPercentage,
-            renderHeaderCell: () => "Percentage",
-            renderCell: item => <TableCellLayout>{item.wisataPercentage}</TableCellLayout>,
+            renderCell: item => <TableCellLayout>{item.Harga}</TableCellLayout>,
         }),
         createTableColumn<IWisata>({
             columnId: "actions",
@@ -171,7 +165,7 @@ export function WisataList(): JSX.Element {
                     <DialogSurface>
                         <DialogTitle>Are you sure?</DialogTitle>
                         <DialogBody>
-                            Do you want to delete the wisata <strong>{selectedWisata?.wisataName}</strong>?
+                            Do you want to delete the wisata <strong>{selectedWisata?.Nama}</strong>?
                         </DialogBody>
                         <DialogActions>
                             <Button appearance="primary" onClick={confirmDelete}>

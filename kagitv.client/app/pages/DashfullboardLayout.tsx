@@ -96,10 +96,10 @@ const PerformanceReviews = bundleIcon(
     PreviewLink20Regular
 );
 const JobPostings = bundleIcon(NotePin20Filled, NotePin20Regular);
-const Interviews = bundleIcon(People20Filled, People20Regular);
-const HealthPlans = bundleIcon(HeartPulse20Filled, HeartPulse20Regular);
-const TrainingPrograms = bundleIcon(BoxMultiple20Filled, BoxMultiple20Regular);
-const CareerDevelopment = bundleIcon(PeopleStar20Filled, PeopleStar20Regular);
+//const Interviews = bundleIcon(People20Filled, People20Regular);
+//const HealthPlans = bundleIcon(HeartPulse20Filled, HeartPulse20Regular);
+//const TrainingPrograms = bundleIcon(BoxMultiple20Filled, BoxMultiple20Regular);
+//const CareerDevelopment = bundleIcon(PeopleStar20Filled, PeopleStar20Regular);
 const Analytics = bundleIcon(DataArea20Filled, DataArea20Regular);
 const Reports = bundleIcon(
     DocumentBulletListMultiple20Filled,
@@ -257,72 +257,51 @@ export const DashfullboardLayout = (): JSXElement => {
                             <Hamburger onClick={() => setIsOpen(!isOpen)} />
                         </Tooltip>
                     </NavDrawerHeader>
-
                     <NavDrawerBody>
                         <AppItem icon={<PersonCircle32Regular />} as="a">
                             Contoso HR
                         </AppItem>
-                        <NavItem icon={<Dashboard />} value="1">
+                        <NavItem icon={<Dashboard />} value="101">
                             Dashboard
                         </NavItem>
-                        <NavItem icon={<Announcements />} value="2">
-                            Announcements
-                        </NavItem>
-                        <NavItem icon={<EmployeeSpotlight />} value="3">
-                            Employee Spotlight
-                        </NavItem>
-                        <NavItem icon={<Search />} value="4">
+                        <NavItem icon={<Search />} value="102">
                             Profile Search
                         </NavItem>
-                        <NavItem icon={<PerformanceReviews />} value="5">
+                        <NavItem icon={<PerformanceReviews />} value="103">
                             Performance Reviews
                         </NavItem>
                         <NavSectionHeader>Employee Management</NavSectionHeader>
-                        <NavCategory value="6">
+                        <NavCategory value="104">
                             <NavCategoryItem icon={<JobPostings />}>
                                 Job Postings
                             </NavCategoryItem>
                             <NavSubItemGroup>
-                                <NavSubItem value="7">Openings</NavSubItem>
-                                <NavSubItem value="8">Submissions</NavSubItem>
+                                <NavSubItem value="105">Openings</NavSubItem>
+                                <NavSubItem value="106">Submissions</NavSubItem>
                             </NavSubItemGroup>
                         </NavCategory>
-                        <NavItem icon={<Interviews />} value="9">
-                            Interviews
-                        </NavItem>
-
-                        <NavSectionHeader>Benefits</NavSectionHeader>
-                        <NavItem icon={<HealthPlans />} value="10">
-                            Health Plans
-                        </NavItem>
-                        <NavCategory value="11">
-                            <NavCategoryItem icon={<Person />} value="12">
-                                Retirement
+                        <NavSectionHeader>Tournament</NavSectionHeader>
+                        <NavCategory value="107">
+                            <NavCategoryItem icon={<Person />}>
+                                All Traveloka Module
                             </NavCategoryItem>
                             <NavSubItemGroup>
-                                <NavSubItem value="13">Plan Information</NavSubItem>
-                                <NavSubItem value="14">Fund Performance</NavSubItem>
-                            </NavSubItemGroup>
-                        </NavCategory>
-
-                        <NavSectionHeader>Learning</NavSectionHeader>
-                        <NavItem icon={<TrainingPrograms />} value="15">
-                            Training Programs
-                        </NavItem>
-                        <NavCategory value="16">
-                            <NavCategoryItem icon={<CareerDevelopment />}>
-                                Career Development
-                            </NavCategoryItem>
-                            <NavSubItemGroup>
-                                <NavSubItem value="17">Career Paths</NavSubItem>
-                                <NavSubItem value="18">Planning</NavSubItem>
+                                <NavSubItem href="/wisatalist" value="108">
+                                    Wisata List
+                                </NavSubItem>
+                                <NavSubItem href="/personlist" value="109">
+                                    Person List
+                                </NavSubItem>
+                                <NavSubItem href="/teamindex" value="110">
+                                    Team Index
+                                </NavSubItem>
                             </NavSubItemGroup>
                         </NavCategory>
                         <NavDivider />
-                        <NavItem target="_blank" icon={<Analytics />} value="19">
+                        <NavItem target="_blank" icon={<Analytics />} value="700">
                             Workforce Data
                         </NavItem>
-                        <NavItem icon={<Reports />} value="20">
+                        <NavItem icon={<Reports />} value="701">
                             Reports
                         </NavItem>
                     </NavDrawerBody>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { Button } from '@fluentui/react-components';
 
 interface Forecast {
     date: string;
@@ -41,6 +42,7 @@ function App() {
     return (
         <div>
             <h1 id="tableLabel">Weather forecast</h1>
+            <Button appearance="secondary">Get started</Button>
             <p>This component demonstrates fetching data from the server.</p>
             {contents}
         </div>

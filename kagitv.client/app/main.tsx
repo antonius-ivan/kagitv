@@ -8,8 +8,6 @@ import WebApp from './WebApp.tsx'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <FluentProvider theme={webLightTheme}>
             <WebApp />
-        </FluentProvider>,
   </StrictMode>,
 )

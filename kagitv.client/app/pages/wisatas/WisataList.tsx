@@ -149,7 +149,7 @@ export function WisataList(): JSX.Element {
                         </DataGridRow>
                     </DataGridHeader>
 
-                <DataGridBody<IWisata>>
+                    <DataGridBody<IWisata>>
                         {({ item, rowId }) => (
                         <DataGridRow<IWisata>
                                 key={rowId}

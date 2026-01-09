@@ -1,4 +1,4 @@
-﻿import React, { FormEvent, useState } from "react";
+﻿import React, { type FormEvent, useState, type JSX } from "react";
 import { useNavigate } from "react-router-dom";
 import {
     Button,
@@ -12,19 +12,15 @@ import {
     DialogContent,
 } from "@fluentui/react-components";
 import { Alert24Regular } from "@fluentui/react-icons";
-import { IWisata } from "./IWisata";
+import type { IWisata } from "./IWisata";
 
 // Initial empty wisata
 const initialWisata: IWisata = {
-    id: 0,
-    wisataNumber: 0,
-    wisataName: "",
-    wisataAmount: 0,
-    wisataPercentage: 0,
+    wisataid: 0,
+    Nama: "",
+    Kota: "",
+    Harga: 0,
     createdDate: undefined,
-    createdBy: undefined,
-    updatedDate: undefined,
-    updatedBy: undefined,
 };
 
 export function NewWisata(): JSX.Element {
@@ -68,23 +64,20 @@ export function NewWisata(): JSX.Element {
 
     return (
         <form onSubmit={handleSubmit} style={{ maxWidth: 400, margin: "2rem auto" }}>
-            <Field label="Wisata Number" required style={{ marginBottom: "1rem" }}>
-                <Input
-                    type="number"
-                    value={wisata.wisataNumber}
-                    onChange={(e) =>
-                        setWisata((prev) => ({
-                            ...prev,
-                            wisataNumber: Number(e.target.value),
-                        }))
-                    }
-                />
-            </Field>
 
             <Field label="Wisata Name" required style={{ marginBottom: "1rem" }}>
                 <Input
                     placeholder="Enter wisata name"
-                    value={wisata.wisataName}
+                    value={wisata.Nama}
+                    onChange={(e) =>
+                        setWisata((prev) => ({ ...prev, wisataName: e.target.value }))
+                    }
+                />
+            </Field>
+            <Field label="Wisata Kota" required style={{ marginBottom: "1rem" }}>
+                <Input
+                    placeholder="Enter wisata Kota"
+                    value={wisata.Kota}
                     onChange={(e) =>
                         setWisata((prev) => ({ ...prev, wisataName: e.target.value }))
                     }
@@ -95,7 +88,7 @@ export function NewWisata(): JSX.Element {
                 <Input
                     type="number"
                     placeholder="0.00"
-                    value={wisata.wisataAmount}
+                    value={wisata.Harga}
                     onChange={(e) =>
                         setWisata((prev) => ({
                             ...prev,
@@ -105,19 +98,6 @@ export function NewWisata(): JSX.Element {
                 />
             </Field>
 
-            <Field label="Wisata Percentage" required style={{ marginBottom: "1.5rem" }}>
-                <Input
-                    type="number"
-                    placeholder="0.00"
-                    value={wisata.wisataPercentage}
-                    onChange={(e) =>
-                        setWisata((prev) => ({
-                            ...prev,
-                            wisataPercentage: Number(e.target.value),
-                        }))
-                    }
-                />
-            </Field>
 
             <div style={{ display: "flex", gap: 8 }}>
                 <Button type="submit">

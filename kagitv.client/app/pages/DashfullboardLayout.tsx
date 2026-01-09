@@ -58,14 +58,17 @@ import {
     PersonCircle32Regular,
 } from "@fluentui/react-icons";
 
-const useStyles = makeStyles({
+const useClasses = makeStyles({
     root: {
         overflow: "hidden",
         display: "flex",
-        height: "600px",
+        height: "6400px",
     },
-    nav: {
+    navdrawer: {
         minWidth: "200px",
+        "@media screen and (max-width: 768px)": {
+            display: "none",        // hides drawer on narrow
+        },
     },
     content: {
         flex: "1",
@@ -115,20 +118,13 @@ type NavItemValueCombo = { parent: string; children: string[] };
 // Ite exactly matches the NavDrawer in the story below
 // This is how a consumer might store them in their app
 const navItemValueList: NavItemValueCombo[] = [
-    { parent: "1", children: [] },
-    { parent: "2", children: [] },
-    { parent: "3", children: [] },
-    { parent: "4", children: [] },
-    { parent: "5", children: [] },
-    { parent: "6", children: ["7", "8"] },
-    { parent: "9", children: [] },
-    { parent: "10", children: [] },
-    { parent: "11", children: ["12", "13"] },
-    { parent: "14", children: [] },
-    { parent: "15", children: [] },
-    { parent: "16", children: ["17", "18"] },
-    { parent: "19", children: [] },
-    { parent: "20", children: [] },
+    { parent: "101", children: [] },
+    { parent: "102", children: [] },
+    { parent: "103", children: [] },
+    { parent: "104", children: ["105", "106"] },
+    { parent: "107", children: ["108", "109", "110", "111", "112", "300"] },
+    { parent: "700", children: [] },
+    { parent: "701", children: [] },
 ];
 
 type SelectedPage = {
@@ -159,7 +155,7 @@ const getRandomPage = (): SelectedPage => {
 };
 
 export const DashfullboardLayout = (): JSXElement => {
-    const styles = useStyles();
+    const classes = useClasses();
     const [isOpen, setIsOpen] = React.useState(true);
 
     const multipleLabelId = useId("multiple-label");
@@ -234,7 +230,7 @@ export const DashfullboardLayout = (): JSXElement => {
 
     return (
         <FluentProvider theme={webLightTheme}>
-            <div className={styles.root}>
+            <div className={classes.root}>
                 <NavDrawer
                     // This a controlled example,
                     // so don't use these props
@@ -250,7 +246,7 @@ export const DashfullboardLayout = (): JSXElement => {
                     selectedCategoryValue={selectedCategoryValue}
                     type={"inline"}
                     open={ true}//{isOpen}
-                    className={styles.nav}
+                    className={classes.navdrawer}
                 >
                     <NavDrawerHeader>
                         <Tooltip content="Close Navigation" relationship="label">
@@ -259,28 +255,11 @@ export const DashfullboardLayout = (): JSXElement => {
                     </NavDrawerHeader>
                     <NavDrawerBody>
                         <AppItem icon={<PersonCircle32Regular />} as="a">
-                            Contoso HR
+                            Contoso Travel
                         </AppItem>
                         <NavItem icon={<Dashboard />} value="101">
                             Dashboard
                         </NavItem>
-                        <NavItem icon={<Search />} value="102">
-                            Profile Search
-                        </NavItem>
-                        <NavItem icon={<PerformanceReviews />} value="103">
-                            Performance Reviews
-                        </NavItem>
-                        <NavSectionHeader>Employee Management</NavSectionHeader>
-                        <NavCategory value="104">
-                            <NavCategoryItem icon={<JobPostings />}>
-                                Job Postings
-                            </NavCategoryItem>
-                            <NavSubItemGroup>
-                                <NavSubItem value="105">Openings</NavSubItem>
-                                <NavSubItem value="106">Submissions</NavSubItem>
-                            </NavSubItemGroup>
-                        </NavCategory>
-                        <NavSectionHeader>Tournament</NavSectionHeader>
                         <NavCategory value="107">
                             <NavCategoryItem icon={<Person />}>
                                 All Traveloka Module
@@ -289,11 +268,8 @@ export const DashfullboardLayout = (): JSXElement => {
                                 <NavSubItem href="/wisatalist" value="108">
                                     Wisata List
                                 </NavSubItem>
-                                <NavSubItem href="/personlist" value="109">
-                                    Person List
-                                </NavSubItem>
-                                <NavSubItem href="/teamindex" value="110">
-                                    Team Index
+                                <NavSubItem href="/loginform" value="109">
+                                    Login Form
                                 </NavSubItem>
                             </NavSubItemGroup>
                         </NavCategory>
@@ -306,8 +282,8 @@ export const DashfullboardLayout = (): JSXElement => {
                         </NavItem>
                     </NavDrawerBody>
                 </NavDrawer>
-                <div className={styles.content}>
-                    <div className={styles.field}>
+                <div className={classes.content}>
+                    <div className={classes.field}>
                         <Button appearance="primary" onClick={handleNavigationClick}>
                             Navigate
                         </Button>

@@ -4,6 +4,7 @@ import type { NavDrawerProps } from "@fluentui/react-components";
 //import RealWeatherForecast from "./pages/RealWeatherForecast";
 import DashfullboardLayout from "./pages/DashfullboardLayout";
 import WisataList from "./pages/wisatas/WisataList";
+import LoginForm from "./pages/LoginForm";
 //import RealWeatherForecast from "./pages/RealWeatherForecast";
 
 export const WebApp = (props: Partial<NavDrawerProps>) => {
@@ -12,6 +13,7 @@ export const WebApp = (props: Partial<NavDrawerProps>) => {
             <Routes>
                 <Route path="/" element={<DashfullboardLayout />} />
                 <Route path="/wisatalist" element={<WisataList />} />
+                <Route path="/loginform" element={<LoginForm />} />
             </Routes>
         </BrowserRouter>
     );

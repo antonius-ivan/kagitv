@@ -1,0 +1,459 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+// Generated from 002FullDelive.pgerd for dbdiagram.io
+// Enhanced with logical cross-schema refs and representative seed records.
+
+Table identity.__EFMigrationsHistory {
+  migration_id varchar(150) [pk, not null]
+  product_version varchar(32) [not null]
+}
+
+Table identity.asp_net_role {
+  id text [pk, not null]
+  name varchar(256)
+  normalized_name varchar(256)
+  concurrency_stamp text
+}
+
+Table identity.asp_net_role_claim {
+  id integer [pk, increment, not null]
+  role_id text [not null]
+  claim_type text
+  claim_value text
+}
+
+Table identity.asp_net_user {
+  id text [pk, not null]
+  card_number text [not null]
+  security_number text [not null]
+  expiration text [not null]
+  card_holder_name text [not null]
+  card_type integer [not null]
+  street text [not null]
+  city text [not null]
+  state text [not null]
+  country text [not null]
+  zip_code text [not null]
+  name text [not null]
+  last_name text [not null]
+  user_name varchar(256)
+  normalized_user_name varchar(256)
+  email varchar(256)
+  normalized_email varchar(256)
+  email_confirmed boolean [not null]
+  password_hash text
+  security_stamp text
+  concurrency_stamp text
+  phone_number text
+  phone_number_confirmed boolean [not null]
+  two_factor_enabled boolean [not null]
+  lockout_end timestamptz
+  lockout_enabled boolean [not null]
+  access_failed_count integer [not null]
+}
+
+Table identity.asp_net_user_claim {
+  id integer [pk, increment, not null]
+  user_id text [not null]
+  claim_type text
+  claim_value text
+}
+
+Table identity.asp_net_user_login {
+  login_provider text [pk, not null]
+  provider_key text [pk, not null]
+  provider_display_name text
+  user_id text [not null]
+}
+
+Table identity.asp_net_user_role {
+  user_id text [pk, not null]
+  role_id text [pk, not null]
+}
+
+Table identity.asp_net_user_token {
+  user_id text [pk, not null]
+  login_provider text [pk, not null]
+  name text [pk, not null]
+  value text
+}
+
+Table identity.open_iddict_application {
+  id text [pk, not null]
+  application_type varchar(50)
+  client_id varchar(100)
+  client_secret text
+  client_type varchar(50)
+  concurrency_token varchar(50)
+  consent_type varchar(50)
+  display_name text
+  display_names text
+  json_web_key_set text
+  permissions text
+  post_logout_redirect_uris text
+  properties text
+  redirect_uris text
+  requirements text
+  settings text
+}
+
+Table identity.open_iddict_authorization {
+  id text [pk, not null]
+  application_id text
+  concurrency_token varchar(50)
+  creation_date timestamptz
+  properties text
+  scopes text
+  status varchar(50)
+  subject varchar(400)
+  type varchar(50)
+}
+
+Table identity.open_iddict_scope {
+  id text [pk, not null]
+  concurrency_token varchar(50)
+  description text
+  descriptions text
+  display_name text
+  display_names text
+  name varchar(200)
+  properties text
+  resources text
+}
+
+Table identity.open_iddict_token {
+  id text [pk, not null]
+  application_id text
+  authorization_id text
+  concurrency_token varchar(50)
+  creation_date timestamptz
+  expiration_date timestamptz
+  payload text
+  properties text
+  redemption_date timestamptz
+  reference_id varchar(100)
+  status varchar(50)
+  subject varchar(400)
+  type varchar(150)
+}
+
+Table ordering.buyer {
+  id integer [pk, not null]
+  identity_guid varchar(200) [not null]
+  name text
+  created_at_utc timestamptz
+}
+
+Table ordering.card_type {
+  id integer [pk, not null]
+  name varchar(200) [not null]
+}
+
+Table ordering.delivery_order {
+  id integer [pk, not null]
+  delivery_order_no varchar(30)
+  delivery_order_code varchar(30)
+  order_id integer [not null]
+  delivery_date timestamptz
+  status varchar(30)
+  created_at_utc timestamptz
+}
+
+Table ordering.delivery_order_detail {
+  id integer [pk, not null]
+  order_item_id integer [not null]
+  sales_item_id integer [not null]
+  qty numeric(18,4) [not null]
+  delivery_order_id integer [not null]
+}
+
+Table ordering.integration_event_log {
+  event_id uuid [pk, not null]
+  event_type_name text [not null]
+  state integer [not null]
+  times_sent integer [not null]
+  creation_time timestamptz [not null]
+  content text [not null]
+  transaction_id uuid [not null]
+}
+
+Table ordering.order {
+  id integer [pk, not null]
+  order_date timestamptz [not null]
+  sales_order_no varchar(30)
+  sales_order_code varchar(30)
+  currency_code varchar(3)
+  total_amount numeric(18,4)
+  total_discount numeric(18,4)
+  total_tax numeric(18,4)
+  grand_total numeric(18,4)
+  created_at_utc timestamptz
+  address_street text
+  address_city text
+  address_state text
+  address_country text
+  address_zip_code text
+  buyer_id integer
+  order_status varchar(30) [not null]
+  description text
+  payment_method_id integer
+}
+
+Table ordering.order_item {
+  id integer [pk, not null]
+  product_name text [not null]
+  picture_url text
+  unit_price numeric(18,4) [not null]
+  discount numeric(18,4) [not null]
+  tax numeric(18,4)
+  line_total numeric(18,4)
+  units integer [not null]
+  product_id integer [not null]
+  currency_code varchar(3)
+  created_at_utc timestamptz
+  order_id integer [not null]
+}
+
+Table ordering.payment_method {
+  id integer [pk, not null]
+  card_type_id integer [not null]
+  buyer_id integer [not null]
+  alias varchar(200) [not null]
+  card_holder_name varchar(200) [not null]
+  card_number varchar(25) [not null]
+  expiration timestamptz [not null]
+}
+
+Table ordering.request {
+  id uuid [pk, not null]
+  name text [not null]
+  time timestamptz [not null]
+}
+
+Table ordering.sales_invoice {
+  id integer [pk, not null]
+  sales_invoice_no varchar(30)
+  order_id integer [not null]
+  invoice_date timestamptz
+  gross_amount numeric(18,4)
+  currency_code varchar(3)
+  status varchar(30)
+  expiry_utc timestamptz
+  is_active boolean [not null]
+  created_at_utc timestamptz
+  updated_at_utc timestamptz
+}
+
+Table ordering.sales_invoice_detail {
+  id integer [pk, not null]
+  sales_invoice_id integer [not null]
+  order_item_id integer
+  sales_item_id integer [not null]
+  description text
+  qty numeric(18,4)
+  unit_price numeric(18,4)
+  discount numeric(18,4)
+  tax numeric(18,4)
+  line_total numeric(18,4)
+}
+
+Table ordering.sales_payment {
+  id integer [pk, not null]
+  payment_no varchar(30)
+  buyer_id integer
+  payment_date timestamptz [not null]
+  currency_code varchar(3) [not null]
+  total_amount numeric(18,4) [not null]
+  status varchar(30)
+  reference_no varchar(100)
+  created_at_utc timestamptz
+}
+
+Table ordering.sales_payment_detail {
+  id integer [pk, not null]
+  sales_payment_id integer [not null]
+  sales_invoice_id integer [not null]
+  payment_method varchar(30) [not null]
+  amount numeric(18,4) [not null]
+  reference_no varchar(100)
+  midtrans_transaction_id varchar(100)
+  transaction_time_utc timestamptz
+  settlement_time_utc timestamptz
+  created_at_utc timestamptz
+}
+
+Table public.__EFMigrationsHistory {
+  migration_id varchar(150) [pk, not null]
+  product_version varchar(32) [not null]
+}
+
+Table sales.__EFMigrationsHistory {
+  migration_id varchar(150) [pk, not null]
+  product_version varchar(32) [not null]
+}
+
+Table sales.currency {
+  code varchar(3) [pk, not null]
+  name varchar(50) [not null]
+  symbol varchar(10) [not null]
+  numeric_code integer
+  minor_unit integer [not null]
+}
+
+Table sales.exchange_rate {
+  id integer [pk, increment, not null]
+  from_currency_code varchar(3) [not null]
+  to_currency_code varchar(3) [not null]
+  rate numeric(18,8) [not null]
+  effective_utc timestamptz [not null]
+}
+
+Table sales.salesitem {
+  id integer [pk, increment, not null]
+  name varchar(50) [not null]
+  description text
+  base_price numeric(18,4) [not null]
+  base_currency_code varchar(3) [not null]
+  picture_file_name text
+  sales_item_type_id integer [not null]
+  sales_item_brand_id integer [not null]
+  created_at_utc timestamptz
+  updated_at_utc timestamptz
+  available_stock integer [not null]
+  restock_threshold integer [not null]
+  max_stock_threshold integer [not null]
+  embedding vector(384)
+  on_reorder boolean [not null]
+}
+
+Table sales.salesitem_brand {
+  id integer [pk, increment, not null]
+  brand varchar(100) [not null]
+}
+
+Table sales.salesitem_dimension {
+  sales_item_id integer [pk, not null]
+  length numeric(18,4)
+  width numeric(18,4)
+  height numeric(18,4)
+  dimension_unit_id integer
+  weight numeric(18,4)
+  weight_unit_id integer
+  quantity_unit_id integer
+}
+
+Table sales.salesitem_price {
+  id integer [pk, increment, not null]
+  sales_item_id integer [not null]
+  currency_code varchar(3) [not null]
+  price numeric(18,4) [not null]
+  valid_from timestamptz
+  valid_to timestamptz
+}
+
+Table sales.salesitem_type {
+  id integer [pk, increment, not null]
+  type varchar(100) [not null]
+}
+
+Table sales.system_config {
+  id integer [pk, increment, not null]
+  config_key varchar(100) [not null]
+  config_value varchar(200) [not null]
+  updated_at_utc timestamptz [not null, default: "now()"]
+}
+
+Table sales.unit_measurement {
+  id integer [pk, increment, not null]
+  name varchar(50) [not null]
+  symbol varchar(10) [not null]
+  measurement_type varchar(20) [not null]
+}
+
+Table webhooksdb.__ef_migrations_history {
+  migration_id varchar(150) [pk, not null]
+  product_version varchar(32) [not null]
+}
+
+// Physical relationships discovered from database constraints
+Ref: identity.asp_net_role_claim.role_id > identity.asp_net_role.id
+Ref: identity.asp_net_user_claim.user_id > identity.asp_net_user.id
+Ref: identity.asp_net_user_login.user_id > identity.asp_net_user.id
+Ref: identity.asp_net_user_role.role_id > identity.asp_net_role.id
+Ref: identity.asp_net_user_role.user_id > identity.asp_net_user.id
+Ref: identity.asp_net_user_token.user_id > identity.asp_net_user.id
+Ref: identity.open_iddict_authorization.application_id > identity.open_iddict_application.id
+Ref: identity.open_iddict_token.application_id > identity.open_iddict_application.id
+Ref: identity.open_iddict_token.authorization_id > identity.open_iddict_authorization.id
+Ref: ordering.delivery_order_detail.delivery_order_id > ordering.delivery_order.id
+Ref: ordering.order.buyer_id > ordering.buyer.id
+Ref: ordering.order.payment_method_id > ordering.payment_method.id
+Ref: ordering.order_item.order_id > ordering.order.id
+Ref: ordering.payment_method.buyer_id > ordering.buyer.id
+Ref: ordering.payment_method.card_type_id > ordering.card_type.id
+Ref: ordering.sales_invoice_detail.sales_invoice_id > ordering.sales_invoice.id
+Ref: ordering.sales_payment_detail.sales_payment_id > ordering.sales_payment.id
+Ref: sales.exchange_rate.from_currency_code > sales.currency.code
+Ref: sales.exchange_rate.to_currency_code > sales.currency.code
+Ref: sales.salesitem.base_currency_code > sales.currency.code
+Ref: sales.salesitem.sales_item_brand_id > sales.salesitem_brand.id
+Ref: sales.salesitem.sales_item_type_id > sales.salesitem_type.id
+Ref: sales.salesitem_dimension.sales_item_id > sales.salesitem.id
+Ref: sales.salesitem_dimension.dimension_unit_id > sales.unit_measurement.id
+Ref: sales.salesitem_dimension.quantity_unit_id > sales.unit_measurement.id
+Ref: sales.salesitem_dimension.weight_unit_id > sales.unit_measurement.id
+Ref: sales.salesitem_price.currency_code > sales.currency.code
+Ref: sales.salesitem_price.sales_item_id > sales.salesitem.id
+
+// Logical relationships that help when exploring the overall domain model
+Ref user_card_type: identity.asp_net_user.card_type > ordering.card_type.id
+Ref order_currency: ordering.order.currency_code > sales.currency.code
+Ref order_item_currency: ordering.order_item.currency_code > sales.currency.code
+Ref order_item_product: ordering.order_item.product_id > sales.salesitem.id
+Ref delivery_order_order: ordering.delivery_order.order_id > ordering.order.id
+Ref delivery_order_item: ordering.delivery_order_detail.order_item_id > ordering.order_item.id
+Ref delivery_order_sales_item: ordering.delivery_order_detail.sales_item_id > sales.salesitem.id
+Ref sales_invoice_order: ordering.sales_invoice.order_id > ordering.order.id
+Ref sales_invoice_currency: ordering.sales_invoice.currency_code > sales.currency.code
+Ref sales_invoice_detail_order_item: ordering.sales_invoice_detail.order_item_id > ordering.order_item.id
+Ref sales_invoice_detail_sales_item: ordering.sales_invoice_detail.sales_item_id > sales.salesitem.id
+Ref sales_payment_buyer: ordering.sales_payment.buyer_id > ordering.buyer.id
+Ref sales_payment_currency: ordering.sales_payment.currency_code > sales.currency.code
+Ref sales_payment_invoice: ordering.sales_payment_detail.sales_invoice_id > ordering.sales_invoice.id
+
+// Representative seed data from the application for easier diagram review
+Records ordering.card_type(id, name) {
+  1, 'Amex'
+  2, 'Visa'
+  3, 'MasterCard'
+}
+
+Records sales.currency(code, name, symbol, numeric_code, minor_unit) {
+  'USD', 'US Dollar', '$', 840, 2
+  'IDR', 'Indonesian Rupiah', 'Rp', 360, 0
+  'EUR', 'Euro', 'EUR', 978, 2
+  'SGD', 'Singapore Dollar', 'S$', 702, 2
+  'MYR', 'Malaysian Ringgit', 'RM', 458, 2
+}
+
+Records sales.unit_measurement(name, symbol, measurement_type) {
+  'Kilogram', 'kg', 'weight'
+  'Gram', 'g', 'weight'
+  'Centimeter', 'cm', 'length'
+  'Meter', 'm', 'length'
+  'Piece', 'pcs', 'quantity'
+  'Box', 'box', 'quantity'
+}
+
+Records sales.salesitem(id, name, base_price, base_currency_code) {
+  1, 'Toy Venue Combustion Hyundai', 20550.99, 'USD'
+  2, 'Toy ID-7 Volkswagen', 63870.99, 'USD'
+  3, 'Toy K5 Hatchback Kia', 24990.99, 'USD'
+}
+
+Records identity.asp_net_user(user_name, email, card_type, country) {
+  'alice', 'AliceSmith@email.com', 1, 'U.S.'
+  'bob', 'BobSmith@email.com', 1, 'U.S.'
+  'ivan', 'aivan@gmail.com', 1, 'U.S.'
+  'usradmin', 'usradmin@gmail.com', 1, 'U.S.'
+}

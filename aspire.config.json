@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "src/ICLAco.AppHost/ICLAco.AppHost.csproj"
+  }
+}

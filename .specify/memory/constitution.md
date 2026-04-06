@@ -13,7 +13,7 @@ Follow-up TODOs:
 - TODO(RATIFICATION_DATE): Original ratification date is unknown and must be confirmed.
 -->
 
-# Glaive Constitution
+# Kagitv Constitution
 
 ## Core Principles
 

@@ -31,7 +31,7 @@ export default async function TwDefaultLayout({
         <SharedTopBar
           search={search}
           section="Commerce"
-          title="Glaive storefront"
+          title="Kagitv storefront"
           utilities={{
             left: { title: "Category" },
             right: { title: "Address / Convenience" }

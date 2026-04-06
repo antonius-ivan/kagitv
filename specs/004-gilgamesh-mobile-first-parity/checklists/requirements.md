@@ -19,7 +19,7 @@
 
 - [x] The artifact set explains what Phase 004 closes.
 - [x] The artifact set explains that later work should extend the baseline rather than reopen it.
-- [x] The artifact set preserves the Glaive naming conventions for shared infrastructure references.
+- [x] The artifact set preserves the Kagitv naming conventions for shared infrastructure references.
 
 ## Notes
 

@@ -9,7 +9,7 @@
 
 ### User Story 1 - Launch Foundation Runtime (Priority: P1)
 
-As a developer starting Glaive, I need the repository to boot through an AppHost-centered Aspire entry point so I can run the platform locally with the Node frontend managed as a first-class application resource.
+As a developer starting Kagitv, I need the repository to boot through an AppHost-centered Aspire entry point so I can run the platform locally with the Node frontend managed as a first-class application resource.
 
 **Why this priority**: No later commerce or cybersecurity feature work can proceed safely until the runtime host, solution structure, and frontend orchestration are stable.
 
@@ -24,7 +24,7 @@ As a developer starting Glaive, I need the repository to boot through an AppHost
 
 ### User Story 2 - Work In Standard Project Shape (Priority: P2)
 
-As a developer familiar with Helene and Gilgamesh, I need Glaive to use the same `src/`-centered project layout with AppHost and shared defaults so future services and frontends can be added without restructuring the repository.
+As a developer familiar with Helene and Gilgamesh, I need Kagitv to use the same `src/`-centered project layout with AppHost and shared defaults so future services and frontends can be added without restructuring the repository.
 
 **Why this priority**: The repo shape determines how future phases will be planned, implemented, and validated. Getting it wrong in Phase 001 creates avoidable migration work later.
 

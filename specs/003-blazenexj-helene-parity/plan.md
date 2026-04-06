@@ -5,7 +5,7 @@
 
 ## Summary
 
-Bring `src/BlazeNexJ` in Glaive to parity with the approved frontend baseline in `E:\Netaspcore10-1\Helene\src\BlazeNexJ`. Phase 003 is not a generic template-wiring effort. The primary goal is to close the route, page-surface, and shared frontend capability gap so Glaive BlazeNexJ resembles Helene BlazeNexJ as the standard frontend baseline for later feature work.
+Bring `src/BlazeNexJ` in Kagitv to parity with the approved frontend baseline in `E:\Netaspcore10-1\Helene\src\BlazeNexJ`. Phase 003 is not a generic template-wiring effort. The primary goal is to close the route, page-surface, and shared frontend capability gap so Kagitv BlazeNexJ resembles Helene BlazeNexJ as the standard frontend baseline for later feature work.
 
 ## Technical Context
 
@@ -16,20 +16,20 @@ Bring `src/BlazeNexJ` in Glaive to parity with the approved frontend baseline in
 **Target Platform**: Windows local development under Aspire orchestration with a Node-hosted Next.js frontend
 **Project Type**: Frontend parity expansion of an existing Next.js app
 **Critical User Journeys**:
-- A developer can open Glaive BlazeNexJ and see a route structure materially aligned with Helene rather than a one-page bootstrap app.
-- A user can reach the approved major frontend areas from Glaive BlazeNexJ, including parity entry points for informational, auth, cart, checkout, dashboard, sales item, service, and user areas.
-- Delivery roles can compare Glaive and Helene frontend trees and identify any remaining difference as an intentional exception rather than accidental drift.
+- A developer can open Kagitv BlazeNexJ and see a route structure materially aligned with Helene rather than a one-page bootstrap app.
+- A user can reach the approved major frontend areas from Kagitv BlazeNexJ, including parity entry points for informational, auth, cart, checkout, dashboard, sales item, service, and user areas.
+- Delivery roles can compare Kagitv and Helene frontend trees and identify any remaining difference as an intentional exception rather than accidental drift.
 **Performance Goals**:
-- Glaive BlazeNexJ should boot without regressing the current working homepage, health route, and first catalog slice.
+- Kagitv BlazeNexJ should boot without regressing the current working homepage, health route, and first catalog slice.
 - Key parity routes should render without introducing obvious build or runtime errors.
 **Constraints**:
 - Preserve `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` names.
 - Preserve the existing `src/BlazeNexJ` App Router structure.
 - Treat Helene as the baseline for route and capability parity, not as a source for arbitrary backend expansion.
 - Do not rewrite Phase 003 as a backend-heavy integration phase.
-**Scale/Scope**: Lock Phase 003 as the implemented parity baseline that expands Glaive BlazeNexJ from the original minimal surface into the broader Helene route inventory and shared frontend capability set.
+**Scale/Scope**: Lock Phase 003 as the implemented parity baseline that expands Kagitv BlazeNexJ from the original minimal surface into the broader Helene route inventory and shared frontend capability set.
 
-**Naming Convention**: Product/workspace name is `Glaive`; shared infrastructure project names remain `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests`.
+**Naming Convention**: Product/workspace name is `Kagitv`; shared infrastructure project names remain `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests`.
 
 ## Constitution Check
 
@@ -50,7 +50,7 @@ specs/003-blazenexj-helene-parity/
 ├── spec.md                # Approved parity-focused feature specification
 ├── plan.md                # This file
 ├── exceptions.md          # Current intentional parity deviations from Helene
-├── research.md            # Helene-to-Glaive parity inventory and gap summary
+├── research.md            # Helene-to-Kagitv parity inventory and gap summary
 └── checklists/
     └── requirements.md    # Specification quality checklist
 ```
@@ -59,7 +59,7 @@ specs/003-blazenexj-helene-parity/
 
 ```text
 src/
-├── BlazeNexJ/                    # Glaive Next.js frontend under expansion
+├── BlazeNexJ/                    # Kagitv Next.js frontend under expansion
 ├── ICLAco.AppHost/               # Aspire host and frontend/backend endpoint wiring
 ├── ICLAco.ServiceDefaults/       # Shared diagnostics and service defaults
 └── ... backend services already present in the repo
@@ -103,7 +103,7 @@ E:\Netaspcore10-1\Helene\src\BlazeNexJ/
 - Supporting areas: `aacomponents`, `api`, `extensions`, `msft`, `tailwindsamplepages`, `types.ts`
 - Shared frontend capabilities: richer package baseline, route-level composition, diagnostics/instrumentation presence, multiple UI surface patterns
 
-### Current Glaive State
+### Current Kagitv State
 
 - Present route areas: root parity hub, `about`, `auth`, `cart`, `catalog`, `checkout`, `config`, `contacts`, `dashboard`, `health`, `home`, `salesitem`, `services`, `tailwindsamplepages`, and `user`
 - Present supporting files and areas: `aacomponents`, `api`, `extensions`, `msft`, `types.ts`, parity metadata helpers, `globals.css`, `instrumentation.ts`, `layout.tsx`, `server.ts`, and `template-wiring.ts`
@@ -111,8 +111,8 @@ E:\Netaspcore10-1\Helene\src\BlazeNexJ/
 
 ### Planned Phase 003 Outcome
 
-- Glaive exposes approved top-level parity route entry areas matching Helene at a structural level
-- Glaive root experience no longer reads as a temporary integration dashboard only
+- Kagitv exposes approved top-level parity route entry areas matching Helene at a structural level
+- Kagitv root experience no longer reads as a temporary integration dashboard only
 - Shared frontend support files and route organization now materially align to the Helene baseline for this phase
 - Intentionally lighter areas are captured as explicit parity exceptions instead of implicit gaps
 
@@ -121,8 +121,8 @@ E:\Netaspcore10-1\Helene\src\BlazeNexJ/
 ### Phase 0 Research
 
 - Record the Helene route inventory and shared frontend capability baseline in `research.md`.
-- Confirm the current Glaive BlazeNexJ route and support-file inventory.
-- Identify where Glaive already has partial progress that can be preserved during parity work, such as `health` and the first `catalog` slice.
+- Confirm the current Kagitv BlazeNexJ route and support-file inventory.
+- Identify where Kagitv already has partial progress that can be preserved during parity work, such as `health` and the first `catalog` slice.
 
 ### Phase 1 Design
 
@@ -133,17 +133,17 @@ E:\Netaspcore10-1\Helene\src\BlazeNexJ/
 ### Phase 2 Implementation Slices
 
 **Result A: Route Surface Parity**
-The approved top-level route areas and nested entry paths are present in Glaive BlazeNexJ.
+The approved top-level route areas and nested entry paths are present in Kagitv BlazeNexJ.
 **Result B: Shared Frontend Structure Parity**
 The supporting frontend structure expected by the Helene baseline is represented through `aacomponents`, `api`, `extensions`, `msft`, `tailwindsamplepages`, `types.ts`, and parity metadata helpers.
 **Result C: Root Experience Parity**
-The Glaive root surface is a parity-oriented route hub rather than a template-wiring or bootstrap-only page.
+The Kagitv root surface is a parity-oriented route hub rather than a template-wiring or bootstrap-only page.
 **Result D: Capability Fill-In**
 Representative route pages exist for auth, dashboard, salesitem, cart, checkout, services, and user areas, with remaining lighter behavior documented as exceptions.
 
 ### Phase 3 Exceptions And Validation
 
-- Record any Helene area intentionally deferred from Glaive as a parity exception.
+- Record any Helene area intentionally deferred from Kagitv as a parity exception.
 - Validate route existence, build integrity, and browser reachability for the primary parity areas.
 
 ## Completion State
@@ -152,7 +152,7 @@ Phase 003 is implemented as a closure-oriented parity baseline. Remaining differ
 
 ## Validation Approach
 
-- Verify Glaive and Helene route trees against the parity inventory in `research.md`.
+- Verify Kagitv and Helene route trees against the parity inventory in `research.md`.
 - Verify `npm run typecheck` and `npm run build` continue to pass for `src/BlazeNexJ`.
 - Verify `dotnet build` continues to pass for `src/ICLAco.AppHost/ICLAco.AppHost.csproj`.
 - Verify browser smoke tests for `/`, `/health`, `/catalog`, and newly added parity routes.
@@ -162,7 +162,7 @@ Phase 003 is implemented as a closure-oriented parity baseline. Remaining differ
 
 - **Risk**: The phase drifts back into generic service-integration work instead of frontend parity.
   **Mitigation**: Keep the parity inventory explicit and evaluate progress against Helene route and capability areas first.
-- **Risk**: Glaive accumulates placeholder routes that satisfy structure but not useful parity.
+- **Risk**: Kagitv accumulates placeholder routes that satisfy structure but not useful parity.
   **Mitigation**: Require each major parity area to present a coherent entry surface rather than an empty shell.
 - **Risk**: Current working slices such as `catalog` regress during route restructuring.
   **Mitigation**: Re-run typecheck/build/browser smoke tests after each parity slice.

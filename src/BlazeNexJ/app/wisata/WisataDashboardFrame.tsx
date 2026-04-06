@@ -24,7 +24,7 @@ export default async function WisataDashboardFrame({
       header={
         <SharedTopBar
           section="Wisata"
-          title="Glaive tourism workspace"
+          title="Kagitv tourism workspace"
           subtitle="Shared Fluent UI shell"
         />
       }

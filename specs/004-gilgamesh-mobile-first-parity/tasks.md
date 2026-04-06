@@ -33,7 +33,7 @@
 
 ## Phase 3: User Story 1 - Mobile-First Storefront Baseline (Priority: P1) 🎯 MVP
 
-**Goal**: Record the current BlazeNexJ storefront as the accepted mobile-first baseline for Glaive
+**Goal**: Record the current BlazeNexJ storefront as the accepted mobile-first baseline for Kagitv
 
 **Independent Test**: Human000 or TPM001 can read the artifact set and understand that the mobile-first storefront direction is no longer open for approval in this phase
 

@@ -1,6 +1,6 @@
 ---
 name: csharp-backend003
-description: 'CsharpBackend003 senior C# backend specialist. Use for Aspire AppHost, ServiceDefaults, APIs, workers, contracts, business logic, EF Core integration, and backend implementation in Glaive.'
+description: 'CsharpBackend003 senior C# backend specialist. Use for Aspire AppHost, ServiceDefaults, APIs, workers, contracts, business logic, EF Core integration, and backend implementation in Kagitv.'
 argument-hint: 'Describe the backend service, API, worker, contract, or runtime issue'
 ---
 
@@ -31,7 +31,7 @@ argument-hint: 'Describe the backend service, API, worker, contract, or runtime 
 - `Validation Needed`
 - `Recommended Next Owner`
 
-## Glaive Context
+## Kagitv Context
 
 - Favor distributed .NET service structure under `src/`.
 - Preserve AppHost-centered orchestration and shared defaults.

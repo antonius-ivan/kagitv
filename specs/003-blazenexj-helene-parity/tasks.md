@@ -34,7 +34,7 @@
 
 ## Phase 3: User Story 1 - Equivalent Frontend Surface (Priority: P1) 🎯 MVP
 
-**Goal**: Finish and validate the remaining route-surface and landing-experience gaps so Glaive BlazeNexJ presents a coherent Helene-style frontend surface rather than a partly completed parity inventory
+**Goal**: Finish and validate the remaining route-surface and landing-experience gaps so Kagitv BlazeNexJ presents a coherent Helene-style frontend surface rather than a partly completed parity inventory
 
 **Independent Test**: Start BlazeNexJ and verify `/`, `/home`, `/dashboard`, `/auth`, `/salesitem`, `/health`, `/cart`, `/checkout`, `/services`, and `/user` render as intentional entry surfaces with parity-oriented navigation and no regression to the old bootstrap-only experience
 

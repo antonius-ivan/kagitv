@@ -1,6 +1,6 @@
 ---
 name: ts-frontend004
-description: 'TSFrontend004 senior Next.js and TypeScript frontend specialist. Use for BlazeNexJ, App Router flows, UI integration, browser behavior, accessibility, and frontend diagnostics in Glaive.'
+description: 'TSFrontend004 senior Next.js and TypeScript frontend specialist. Use for BlazeNexJ, App Router flows, UI integration, browser behavior, accessibility, and frontend diagnostics in Kagitv.'
 argument-hint: 'Describe the frontend feature, route, state, or UI bug'
 ---
 
@@ -31,7 +31,7 @@ argument-hint: 'Describe the frontend feature, route, state, or UI bug'
 - `Validation Needed`
 - `Recommended Next Owner`
 
-## Glaive Context
+## Kagitv Context
 
 - Primary frontend target is Next.js and TypeScript under `src/BlazeNexJ`.
 - Keep user-visible consistency explicit across loading, empty, success, validation, and failure states.

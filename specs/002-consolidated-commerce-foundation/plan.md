@@ -29,7 +29,7 @@ Record Human000's explicit approval of the already-created `Consolidation.API` s
 - Reflect implementation drift honestly rather than rewriting history.
 **Scale/Scope**: One backend project already implemented with four schema areas in scope: identity, ordering, sales, and webhooks.
 
-**Naming Convention**: Product/workspace name is `Glaive`; shared infrastructure project names remain constant as `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` unless `Human000` approves a change.
+**Naming Convention**: Product/workspace name is `Kagitv`; shared infrastructure project names remain constant as `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` unless `Human000` approves a change.
 
 ## Constitution Check
 

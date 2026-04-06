@@ -17,7 +17,7 @@
 
 ### User Story 1 - Mobile-First Storefront Baseline (Priority: P1)
 
-As Human000, I want Glaive BlazeNexJ to be recorded as the current mobile-first frontend baseline so later frontend work starts from an explicitly closed parity phase instead of an implicit state.
+As Human000, I want Kagitv BlazeNexJ to be recorded as the current mobile-first frontend baseline so later frontend work starts from an explicitly closed parity phase instead of an implicit state.
 
 **Why this priority**: Without a recorded closure, later work has to re-litigate whether the mobile-first storefront direction is complete.
 
@@ -41,12 +41,12 @@ As TPM001, I want Phase 004 to define what is closed and what remains for later 
 
 ## Functional Requirements
 
-- **FR-001**: The system MUST record `src/BlazeNexJ` as the current mobile-first frontend baseline for Glaive under the Phase 004 label.
+- **FR-001**: The system MUST record `src/BlazeNexJ` as the current mobile-first frontend baseline for Kagitv under the Phase 004 label.
 - **FR-002**: The system MUST treat the implemented BlazeNexJ commerce flow as Phase 004 completed scope rather than future planned scope.
 - **FR-003**: The system MUST record a concrete completion timestamp for the closed phase.
 - **FR-004**: The system MUST record runtime validation evidence covering Aspire startup, integrated-browser checkout, and Human000 Midtrans confirmation.
 - **FR-005**: The system MUST capture the closure boundary so later phases extend the baseline instead of reopening it ambiguously.
-- **FR-006**: The system MUST preserve the existing Glaive naming rules for `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests`.
+- **FR-006**: The system MUST preserve the existing Kagitv naming rules for `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests`.
 
 ## Key Entities
 

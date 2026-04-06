@@ -28,7 +28,7 @@
 **Constraints**: [domain-specific limits, compatibility requirements, or observability requirements]  
 **Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
 
-**Naming Convention**: Product/workspace name is `Glaive`; shared infrastructure project names remain constant as `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` unless `Human000` approves a change.
+**Naming Convention**: Product/workspace name is `Kagitv`; shared infrastructure project names remain constant as `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` unless `Human000` approves a change.
 
 ## Constitution Check
 
@@ -64,7 +64,7 @@ specs/[###-feature]/
   ACTION REQUIRED: Replace the placeholder tree below with the concrete layout
   for this feature. Delete unused options and expand the chosen structure with
   real paths (e.g., apps/admin, packages/something). Keep shared infrastructure
-  names constant as `ICLAco.*` even when the product name is Glaive. The
+  names constant as `ICLAco.*` even when the product name is Kagitv. The
   delivered plan must not include Option labels.
 -->
 

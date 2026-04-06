@@ -6,7 +6,7 @@ Record the currently implemented BlazeNexJ storefront baseline and the evidence 
 
 ## Current Implemented State
 
-- `src/BlazeNexJ` is the active Glaive storefront under Aspire.
+- `src/BlazeNexJ` is the active Kagitv storefront under Aspire.
 - The frontend exposes browsing, auth, cart, checkout, and order-history flows.
 - The storefront is already oriented around a mobile-first commerce surface rather than a desktop-only or backend-only workflow.
 

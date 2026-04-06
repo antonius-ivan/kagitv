@@ -1,4 +1,4 @@
-# Glaive Engineering Workflow
+# Kagitv Engineering Workflow
 
 This workspace uses a role-based collaboration model on top of the existing Speckit delivery pipeline.
 
@@ -55,15 +55,15 @@ https://github.com/antonius-ivan/BlazorStructureApp
 
 ## Naming Convention
 
-- `Glaive` is the product and workspace name.
+- `Kagitv` is the product and workspace name.
 - Shared infrastructure project names remain constant as `ICLAco.AppHost`, `ICLAco.ServiceDefaults`, and `ICLAco.Tests` to stay aligned with Helene and Gilgamesh.
-- Do not rename shared infrastructure projects to `Glaive.AppHost`, `Glaive.ServiceDefaults`, or `Glaive.Tests` in specs, plans, tasks, or implementation guidance unless `Human000` explicitly approves a naming strategy change.
+- Do not rename shared infrastructure projects to `Kagitv.AppHost`, `Kagitv.ServiceDefaults`, or `Kagitv.Tests` in specs, plans, tasks, or implementation guidance unless `Human000` explicitly approves a naming strategy change.
 
 ## Working Rules
 
 - Do not replace Speckit with ad hoc work when the work belongs in the Speckit flow.
 - Use the role agents and skills to support Speckit, not bypass it.
 - Keep responsibilities explicit in plans and task lists.
-- Prefer workspace-specific conventions for Glaive: distributed `.NET` under `src/`, constant shared infrastructure names `ICLAco.AppHost` and `ICLAco.ServiceDefaults`, Next.js/TypeScript frontend, PostgreSQL, and later commerce plus cybersecurity dashboard phases.
+- Prefer workspace-specific conventions for Kagitv: distributed `.NET` under `src/`, constant shared infrastructure names `ICLAco.AppHost` and `ICLAco.ServiceDefaults`, Next.js/TypeScript frontend, PostgreSQL, and later commerce plus cybersecurity dashboard phases.
 - When a task reaches an approval gate, pause and route through `Human000` rather than continuing by assumption.
 - When a phase is completed and validated by `QAA005`, pause before the next phase and route through `Human000` for the phase file list update.

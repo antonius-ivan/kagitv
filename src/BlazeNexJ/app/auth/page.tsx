@@ -9,7 +9,7 @@ export default async function AuthPage() {
   return (
     <TwDefaultLayout
       eyebrow="Identity"
-      title="Sign in through the Glaive identity service."
+      title="Sign in through the Kagitv identity service."
       description="This route starts the OpenID Connect flow used for the reduced BlazeNexJ catalog and dashboard baseline."
     >
       <section className="rounded-[1.6rem] border border-stone-200 bg-white p-8 shadow-[0_14px_32px_rgba(90,67,42,0.08)]">

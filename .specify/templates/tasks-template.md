@@ -22,7 +22,7 @@ plan, or constitution-driven risk level makes them necessary for safe delivery.
 ## Path Conventions
 
 - Default structure follows the plan template: `src/` for application projects and `tests/` for test projects
-- Product/workspace naming may be `Glaive`, but shared infrastructure paths stay constant as `src/ICLAco.AppHost/`, `src/ICLAco.ServiceDefaults/`, and `tests/ICLAco.Tests/` unless `Human000` approves a naming change
+- Product/workspace naming may be `Kagitv`, but shared infrastructure paths stay constant as `src/ICLAco.AppHost/`, `src/ICLAco.ServiceDefaults/`, and `tests/ICLAco.Tests/` unless `Human000` approves a naming change
 - Common backend paths: `src/ICLAco.AppHost/`, `src/ICLAco.ServiceDefaults/`, `src/[Feature].API/`, `src/[Feature].Domain/`, `src/[Feature].Infrastructure/`, `src/[Feature].Worker/`
 - Common frontend paths: `src/BlazeWeb/`, `src/BlazeWebComponents/`, `src/BlazeNexJ/`
 - Common test paths: `tests/ICLAco.Tests/` with subfolders or projects for unit, integration, contract, and UI/e2e coverage as needed

@@ -50,9 +50,9 @@ Observed in `E:\Netaspcore10-1\Helene\src\BlazeNexJ\package.json`:
 
 Interpretation: Helene parity is broader than page count. It includes a richer frontend support structure and dependency baseline.
 
-## Current Glaive State
+## Current Kagitv State
 
-### Current Glaive Route/Support Inventory Under `src/BlazeNexJ/app`
+### Current Kagitv Route/Support Inventory Under `src/BlazeNexJ/app`
 
 - `about/`
 - `aacomponents/`
@@ -85,12 +85,12 @@ Interpretation: Helene parity is broader than page count. It includes a richer f
 
 ### Current Gap
 
-Glaive now carries the approved top-level parity route areas and the expected supporting route-level structure. The remaining gap is intentional depth, not missing topology: several areas remain lighter than Helene in behavior, package stack, and UI richness.
+Kagitv now carries the approved top-level parity route areas and the expected supporting route-level structure. The remaining gap is intentional depth, not missing topology: several areas remain lighter than Helene in behavior, package stack, and UI richness.
 
 ## Planning Implications
 
 - Phase 003 can now be reviewed as a completed parity-baseline phase with documented exceptions.
-- Existing Glaive work such as the health route and initial catalog slice has been preserved inside the parity baseline.
+- Existing Kagitv work such as the health route and initial catalog slice has been preserved inside the parity baseline.
 - Root experience parity has been achieved by replacing the Phase 001 placeholder with a route-oriented parity hub.
 - Remaining differences from Helene should be tracked as post-Phase-003 follow-on work rather than left ambiguous.
 

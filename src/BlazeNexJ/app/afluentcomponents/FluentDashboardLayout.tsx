@@ -228,7 +228,7 @@ export const FluentDashboardLayout = ({
 
         <NavDrawerBody>
           <AppItem icon={<PersonCircle32Regular />} as="a">
-            Glaive ERP
+            Kagitv ERP
           </AppItem>
           {modules.length > 0 ? (
             modules.map((module) => (

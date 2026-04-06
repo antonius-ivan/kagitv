@@ -9,7 +9,7 @@ export default async function DashboardPage() {
             header={
                 <SharedTopBar
                     section="Dashboard"
-                    title="Glaive operations"
+                    title="Kagitv operations"
                 />
             }
         >

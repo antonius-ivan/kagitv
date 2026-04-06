@@ -5,7 +5,7 @@
 
 ## Summary
 
-Phase 004 records the current `src/BlazeNexJ` storefront as the accepted mobile-first Gilgamesh-parity baseline for Glaive and closes the phase as completed. This is a closure-oriented artifact phase, not a request to reopen already-working storefront and payment flow implementation.
+Phase 004 records the current `src/BlazeNexJ` storefront as the accepted mobile-first Gilgamesh-parity baseline for Kagitv and closes the phase as completed. This is a closure-oriented artifact phase, not a request to reopen already-working storefront and payment flow implementation.
 
 ## Technical Context
 

@@ -1,2 +1,17 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+    <File Path="projectdescription.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/BlazeNexJ/BlazeNexJ.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="src/Consolidation.API/Consolidation.API.csproj" />
+    <Project Path="src/ICLAco.AppHost/ICLAco.AppHost.csproj" />
+    <Project Path="src/ICLAco.ServiceDefaults/ICLAco.ServiceDefaults.csproj" />
+    <Project Path="src/Identity.API/Identity.API.csproj" />
+    <Project Path="src/SalesItem.API/SalesItem.API.csproj" />
+  </Folder>
 </Solution>

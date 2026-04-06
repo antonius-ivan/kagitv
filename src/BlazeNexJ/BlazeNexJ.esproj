@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.3864779">
+  <ItemGroup>
+    <None Remove="app\NewFolder\**" />
+    <TypeScriptConfiguration Remove="app\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\transitpg\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.2.0">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	  <UserSecretsId>b2718a5e-5050-4329-bc72-938f3b699b51</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.Javascript" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Consolidation.API\Consolidation.API.csproj" />
+		<ProjectReference Include="..\SalesItem.API\SalesItem.API.csproj" />
+		<ProjectReference Include="..\Identity.API\Identity.API.csproj" />
+	</ItemGroup>
+
+</Project>

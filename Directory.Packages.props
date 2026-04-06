@@ -1,0 +1,69 @@
+<Project>
+	<PropertyGroup>
+		<!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+		<ApiVersioningVersion>8.1.1</ApiVersioningVersion>
+		<AspireVersion>13.2.0</AspireVersion>
+		<DotnetVersion>8.0.2</DotnetVersion>
+		<DotnetBelowVersion>8.0.2</DotnetBelowVersion>
+		<GrpcVersion>2.76.0</GrpcVersion>
+		<EFCoreVersion>8.0.21</EFCoreVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Asp.Versioning.Http.Client" Version="8.1.0" />
+		<PackageVersion Include="Aspire.Hosting.JavaScript" Version="13.2.0" />
+		<PackageVersion Include="Duende.IdentityServer" Version="7.3.2" />
+		<PackageVersion Include="Duende.IdentityServer.AspNetIdentity" Version="7.3.2" />
+		<PackageVersion Include="Duende.IdentityServer.EntityFramework" Version="7.3.2" />
+		<PackageVersion Include="Duende.IdentityServer.Storage" Version="7.3.2" />
+		<PackageVersion Include="EFCore.NamingConventions" Version="8.0.3" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.QuickGrid" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+		<PackageVersion Include="OpenIddict" Version="7.2.0" />
+		<PackageVersion Include="OpenIddict.AspNetCore" Version="7.2.0" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="7.2.0" />
+		<PackageVersion Include="OpenIddict.Server.AspNetCore" Version="7.2.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="$(EFCoreVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(EFCoreVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EFCoreVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(EFCoreVersion)" />
+		<PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="8.10.0" />
+		<PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.5" />
+		<PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.1.0" />
+		<PackageVersion Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="10.1.0" />
+		<PackageVersion Include="Microsoft.OpenApi" Version="2.3.2" />
+		<PackageVersion Include="Microsoft.Web.LibraryManager.Build" Version="3.0.71" />
+		<PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.15.0" />
+		<PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.15.0" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.15.0" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.15.0-beta.1" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.15.0" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.15.0" />
+		<!-- Version together with Asp.Versioning -->
+		<PackageVersion Include="Asp.Versioning.Mvc.ApiExplorer" Version="$(ApiVersioningVersion)" />
+		<PackageVersion Include="Asp.Versioning.Http" Version="$(ApiVersioningVersion)" />
+		<PackageVersion Include="Scalar.AspNetCore" Version="2.11.10" />
+		<!-- Version together with Aspire -->
+		<PackageVersion Include="Aspire.Azure.Messaging.EventHubs" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.Hosting.Azure.EventHubs" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.Hosting.Redis" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.Hosting.RabbitMQ" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.Hosting.Yarp" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.RabbitMQ.Client" Version="$(AspireVersion)" />
+		<PackageVersion Include="Aspire.StackExchange.Redis" Version="$(AspireVersion)" />
+		<!-- Grpc -->
+		<PackageVersion Include="Grpc.AspNetCore" Version="$(GrpcVersion)" />
+		<PackageVersion Include="Grpc.Net.ClientFactory" Version="$(GrpcVersion)" />
+		<PackageVersion Include="Grpc.Tools" Version="2.78" PrivateAssets="All" />
+		<PackageVersion Include="Google.Protobuf" Version="3.33.5" />
+		<PackageVersion Include="System.Reflection.TypeExtensions" Version="4.7.0" />
+		<PackageVersion Include="FluentValidation" Version="12.0.0" />
+		<PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+	</ItemGroup>
+</Project>

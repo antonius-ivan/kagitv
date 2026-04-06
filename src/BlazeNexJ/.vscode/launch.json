@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Fullstack Debug",
+      "configurations": [ "Next.js: browser", "attach to Next.js pid: server" ]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "attach to Next.js pid: server",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Next.js: browser",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:26100",
+      "webRoot": "${workspaceFolder}/src/BlazeNexJ",
+    }
+  ]
+}

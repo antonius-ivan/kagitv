@@ -1,0 +1,1012 @@
+[
+  {
+    "Id": 1,
+    "Type": "ICE SUV",
+    "Brand": "Hyundai",
+    "Name": "Toy Venue Combustion Hyundai",
+    "Description": "Subcompact SUV with efficient gas power, easy city maneuvering, and flexible cargo space. A practical daily driver with a higher seating position.",
+    "Price": 20550.99,
+    "IDRPrice": 20550.99,
+    "RupiahPrice": 34577040675.00
+  },
+  {
+    "Id": 2,
+    "Type": "EV Sedan",
+    "Brand": "Volkswagen",
+    "Name": "Toy ID-7 Volkswagen",
+    "Description": "All-electric midsize sedan with long range focus, quiet ride, and roomy cabin. Designed for smooth commuting and highway comfort.",
+    "Price": 63870.99,
+    "IDRPrice": 63870.99,
+    "RupiahPrice": 1074442421.75
+  },
+  {
+    "Id": 3,
+    "Type": "ICE Hatchback",
+    "Brand": "Kia",
+    "Name": "Toy K5 Hatchback Kia",
+    "Description": "Compact hatchback with sporty styling, responsive gas power, and fold-down rear seats. Balanced for everyday commuting and weekend trips.",
+    "Price": 24990.99,
+    "IDRPrice": 24990.99,
+    "RupiahPrice": 420444183.175
+  },
+  {
+    "Id": 4,
+    "Type": "ICE SUV",
+    "Brand": "Nissan",
+    "Name": "Toy Armada Platinum Nissan",
+    "Description": "Full-size SUV with strong V8 power, three-row seating, and towing capability. Built for long trips and family comfort.",
+    "Price": 77550.99,
+    "IDRPrice": 77550.99,
+    "RupiahPrice": 1303674182.175
+  },
+  {
+    "Id": 5,
+    "Type": "EV Hatchback",
+    "Brand": "Chevrolet",
+    "Name": "Toy Bolt EV Chevy",
+    "Description": "All-electric hatchback with quick acceleration, compact footprint, and practical cargo area. Ideal for urban driving with low running costs.",
+    "Price": 28595.99,
+    "IDRPrice": 28595.99,
+    "RupiahPrice": 481237633.175
+  },
+  {
+    "Id": 6,
+    "Type": "EV Pickup",
+    "Brand": "Ford",
+    "Name": "Toy F-150 Lightning Ford",
+    "Description": "All-electric full-size pickup with strong torque, large bed, and available front trunk. Built for work and everyday hauling.",
+    "Price": 54780.99,
+    "IDRPrice": 54780.99,
+    "RupiahPrice": 921234183.175
+  },
+  {
+    "Id": 7,
+    "Type": "EV SUV",
+    "Brand": "Rivian",
+    "Name": "Toy R2 Rivian",
+    "Description": "All-electric compact SUV with adventurous design and efficient range. Versatile cabin and practical cargo for daily use.",
+    "Price": 85000.99,
+    "IDRPrice": 85000.99,
+    "RupiahPrice": 1430801667.175
+  },
+  {
+    "Id": 8,
+    "Type": "EV SUV",
+    "Brand": "BMW",
+    "Name": "Toy iX M70 EV BMW",
+    "Description": "High-performance electric SUV with rapid acceleration, premium interior, and advanced tech. Designed for sporty, quiet driving.",
+    "Price": 112950.99,
+    "IDRPrice": 112950.99,
+    "RupiahPrice": 1900014182.175
+  },
+  {
+    "Id": 9,
+    "Type": "EV Sports Sedan",
+    "Brand": "Porsche",
+    "Name": "Toy Taycan EV Porsche",
+    "Description": "All-electric sports sedan with sharp handling and rapid acceleration. Low center of gravity delivers precise road feel.",
+    "Price": 109650.99,
+    "IDRPrice": 109650.99,
+    "RupiahPrice": 1844384182.175
+  },
+  {
+    "Id": 10,
+    "Type": "EV Sedan",
+    "Brand": "Lucid",
+    "Name": "Toy Air Lucid",
+    "Description": "All-electric luxury sedan with smooth power delivery and long-range efficiency. Spacious interior focused on comfort and technology.",
+    "Price": 115700.99,
+    "IDRPrice": 115700.99,
+    "RupiahPrice": 1945914182.175
+  },
+  {
+    "Id": 11,
+    "Type": "EV SUV",
+    "Brand": "Subaru",
+    "Name": "Toy Trailseeker EV Subaru",
+    "Description": "All-electric SUV with raised ride height, practical cargo, and family-friendly space. Tuned for everyday usability and low emissions.",
+    "Price": 39995.99,
+    "IDRPrice": 39995.99,
+    "RupiahPrice": 672995183.175
+  },
+  {
+    "Id": 12,
+    "Type": "EV SUV",
+    "Brand": "Tesla",
+    "Name": "Toy Model X Tesla",
+    "Description": "Three-row electric SUV with strong performance, premium cabin, and available all-wheel drive. Combines space with instant torque.",
+    "Price": 39900.00,
+    "IDRPrice": 39900.00,
+    "RupiahPrice": 671175000
+  },
+  {
+    "Id": 13,
+    "Type": "ICE Pickup",
+    "Brand": "Hyundai",
+    "Name": "Toy Santa Cruz Hyundai",
+    "Description": "Compact pickup with practical bed, efficient gas power, and SUV-like comfort. Ideal for light hauling and daily driving.",
+    "Price": 32700.99,
+    "IDRPrice": 32700.99,
+    "RupiahPrice": 550222183.175
+  },
+  {
+    "Id": 14,
+    "Type": "ICE SUV",
+    "Brand": "Volkswagen",
+    "Name": "Toy Taos Volkswagen",
+    "Description": "Compact SUV with efficient gas engine, easy parking footprint, and flexible seating. Good balance of comfort and utility.",
+    "Price": 26500.99,
+    "IDRPrice": 26500.99,
+    "RupiahPrice": 446011183.175
+  },
+  {
+    "Id": 15,
+    "Type": "Commercial Van",
+    "Brand": "Ford",
+    "Name": "Toy Transit Ford",
+    "Description": "Commercial van with configurable cargo space, durable drivetrain, and easy upfit options. Built for deliveries and work fleets.",
+    "Price": 58650.99,
+    "IDRPrice": 58650.99,
+    "RupiahPrice": 986364183.175
+  },
+  {
+    "Id": 16,
+    "Type": "EV Crossover",
+    "Brand": "Rivian",
+    "Name": "Toy R3 Crossover Rivian",
+    "Description": "All-electric crossover with compact size, roomy interior, and versatile cargo. Designed for city agility and weekend trips.",
+    "Price": 48000.00,
+    "IDRPrice": 48000.00,
+    "RupiahPrice": 808800000
+  },
+  {
+    "Id": 17,
+    "Type": "EV SUV",
+    "Brand": "Subaru",
+    "Name": "Toy Uncharted EV Subaru",
+    "Description": "All-electric SUV with practical range, roomy cabin, and available all-wheel drive. Built for daily family use.",
+    "Price": 34995.99,
+    "IDRPrice": 34995.99,
+    "RupiahPrice": 588624183.175
+  },
+  {
+    "Id": 18,
+    "Type": "ICE Sports",
+    "Brand": "BMW",
+    "Name": "Toy M235 xDrive Gran Coupe BMW",
+    "Description": "Sport-oriented compact sedan with turbo power, all-wheel drive, and sharp handling. A blend of performance and practicality.",
+    "Price": 54350.00,
+    "IDRPrice": 54350.00,
+    "RupiahPrice": 914927500
+  },
+  {
+    "Id": 19,
+    "Type": "ICE Crossover",
+    "Brand": "Subaru",
+    "Name": "Toy Outback Wilderness Subaru",
+    "Description": "Rugged crossover wagon with higher ground clearance and durable trim. Built for light off-road use and road trips.",
+    "Price": 44995.99,
+    "IDRPrice": 44995.99,
+    "RupiahPrice": 757624183.175
+  },
+  {
+    "Id": 20,
+    "Type": "Commercial Van",
+    "Brand": "Chevrolet",
+    "Name": "Toy Express Van Chevy",
+    "Description": "Full-size commercial van with large cargo volume and work-ready durability. Ideal for hauling and fleet use.",
+    "Price": 41800.99,
+    "IDRPrice": 41800.99,
+    "RupiahPrice": 703382183.175
+  },
+  {
+    "Id": 21,
+    "Type": "EV SUV",
+    "Brand": "Subaru",
+    "Name": "Toy Solterra Touring XT Subaru",
+    "Description": "All-electric SUV with standard all-wheel drive and modern driver assists. Quiet, efficient, and family-friendly.",
+    "Price": 46350.99,
+    "IDRPrice": 46350.99,
+    "RupiahPrice": 779785183.175
+  },
+  {
+    "Id": 22,
+    "Type": "ICE Sports",
+    "Brand": "Ford",
+    "Name": "Toy Mustang GT Fastback Ford",
+    "Description": "Rear-wheel-drive sports coupe with V8 power and classic muscle styling. Built for strong acceleration and track-ready feel.",
+    "Price": 49495.00,
+    "IDRPrice": 49495.00,
+    "RupiahPrice": 832579375
+  },
+  {
+    "Id": 23,
+    "Type": "EV Pickup",
+    "Brand": "Tesla",
+    "Name": "Toy Cybertruck Tesla",
+    "Description": "All-electric pickup with stainless steel body, high torque, and configurable bed. Designed for utility and extreme styling.",
+    "Price": 48900.99,
+    "IDRPrice": 48900.99,
+    "RupiahPrice": 822636183.175
+  },
+  {
+    "Id": 24,
+    "Type": "EV SUV",
+    "Brand": "Volvo",
+    "Name": "Toy EX30 EV Volvo",
+    "Description": "Compact electric SUV with efficient range and modern Scandinavian design. Good for urban commuting and small families.",
+    "Price": 40345.99,
+    "IDRPrice": 40345.99,
+    "RupiahPrice": 678970183.175
+  },
+  {
+    "Id": 25,
+    "Type": "Hybrid Sedan",
+    "Brand": "Hyundai",
+    "Name": "Toy Sonata Hybrid Hyundai",
+    "Description": "Hybrid midsize sedan with strong fuel economy and smooth ride. Comfortable for commuting and long drives.",
+    "Price": 26900.99,
+    "IDRPrice": 26900.99,
+    "RupiahPrice": 452697183.175
+  },
+  {
+    "Id": 26,
+    "Type": "ICE Hatchback",
+    "Brand": "Volkswagen",
+    "Name": "Toy Golf R ",
+    "Description": "High-performance hot hatch with turbo power and all-wheel drive. Sharp handling in a practical five-door body.",
+    "Price": 49455.99,
+    "IDRPrice": 49455.99,
+    "RupiahPrice": 831911183.175
+  },
+  {
+    "Id": 27,
+    "Type": "ICE Sedan",
+    "Brand": "Subaru",
+    "Name": "Toy Legacy Touring XT Subaru",
+    "Description": "Midsize sedan with turbocharged power and refined ride quality. Balanced comfort with confident all-weather traction.",
+    "Price": 40110.00,
+    "IDRPrice": 40110.00,
+    "RupiahPrice": 675851500
+  },
+  {
+    "Id": 28,
+    "Type": "EV Hatchback",
+    "Brand": "Nissan",
+    "Name": "Toy Leaf EV Nissan",
+    "Description": "All-electric hatchback with efficient range and easy urban maneuvering. Practical cargo space and low running costs.",
+    "Price": 29999.99,
+    "IDRPrice": 29999.99,
+    "RupiahPrice": 504749183.175
+  },
+  {
+    "Id": 29,
+    "Type": "ICE SUV",
+    "Brand": "Chevrolet",
+    "Name": "Toy Suburban High Country Chevy",
+    "Description": "Full-size SUV with three-row seating, strong towing, and upscale comfort. Built for big families and long trips.",
+    "Price": 63700.00,
+    "IDRPrice": 63700.00,
+    "RupiahPrice": 1072347500
+  },
+  {
+    "Id": 30,
+    "Type": "EV Hatchback",
+    "Brand": "Volkswagen",
+    "Name": "Toy ID-3 Volkwagen",
+    "Description": "All-electric compact hatchback with efficient range and agile handling. Ideal for city driving and tight parking.",
+    "Price": 39326.99,
+    "IDRPrice": 39326.99,
+    "RupiahPrice": 661803183.175
+  },
+  {
+    "Id": 31,
+    "Type": "EV Hatchback",
+    "Brand": "Nissan",
+    "Name": "Toy Sakura Nissan",
+    "Description": "Ultra-compact electric hatchback with efficient city range and easy maneuvering. Best for short commutes and urban use.",
+    "Price": 19149.99,
+    "IDRPrice": 19149.99,
+    "RupiahPrice": 322314183.175
+  },
+  {
+    "Id": 32,
+    "Type": "ICE SUV",
+    "Brand": "Volkswagen",
+    "Name": "Toy Atlas Cross Sport Volkswagen",
+    "Description": "Midsize SUV with coupe-like profile, roomy cabin, and practical cargo. Comfortable for family travel.",
+    "Price": 38300.99,
+    "IDRPrice": 38300.99,
+    "RupiahPrice": 645009183.175
+  },
+  {
+    "Id": 33,
+    "Type": "ICE Minivan",
+    "Brand": "Kia",
+    "Name": "Toy Carnival MPV Kia",
+    "Description": "Family minivan with sliding doors, flexible seating, and generous cargo space. Designed for everyday practicality.",
+    "Price": 37390.99,
+    "IDRPrice": 37390.99,
+    "RupiahPrice": 629001183.175
+  },
+  {
+    "Id": 34,
+    "Type": "ICE Sports",
+    "Brand": "Porsche",
+    "Name": "Toy 911 Turbo S Porsche",
+    "Description": "High-performance sports coupe with twin-turbo power and track-ready handling. Premium interior with strong highway stability.",
+    "Price": 54990.00,
+    "IDRPrice": 54990.00,
+    "RupiahPrice": 923083175.000
+  },
+  {
+    "Id": 35,
+    "Type": "ICE Sports",
+    "Brand": "Ford",
+    "Name": "Toy GTD Mustang Perfomance Ford",
+    "Description": "Performance-focused sports coupe with high-output engine and aggressive aerodynamics. Built for track capability and street presence.",
+    "Price": 99999.00,
+    "IDRPrice": 99999.00,
+    "RupiahPrice": 1682491750
+  },
+  {
+    "Id": 36,
+    "Type": "Commercial Truck",
+    "Brand": "Chevrolet",
+    "Name": "Toy Low Cab Forward Chevy",
+    "Description": "Cab-over commercial truck with durable chassis and high payload capacity. Ideal for urban delivery and utility fleets.",
+    "Price": 63360.99,
+    "IDRPrice": 63360.99,
+    "RupiahPrice": 1066091833.175
+  },
+  {
+    "Id": 37,
+    "Type": "EV SUV",
+    "Brand": "Tesla",
+    "Name": "Toy Model Y Tesla",
+    "Description": "All-electric compact SUV with quick acceleration and roomy hatchback cargo. Popular for daily use and road trips.",
+    "Price": 33900.99,
+    "IDRPrice": 33900.99,
+    "RupiahPrice": 570427183.175
+  },
+  {
+    "Id": 38,
+    "Type": "EV Pickup",
+    "Brand": "Rivian",
+    "Name": "Toy R1T Dual Rivian",
+    "Description": "All-electric adventure pickup with strong torque and off-road ability. Spacious cabin and practical bed utility.",
+    "Price": 79990.00,
+    "IDRPrice": 79990.00,
+    "RupiahPrice": 1345707500
+  },
+  {
+    "Id": 39,
+    "Type": "EV SUV",
+    "Brand": "Hyundai",
+    "Name": "Toy Ioniq 9 Hyundai",
+    "Description": "Three-row electric SUV with family-focused space and modern tech. Smooth, quiet power for long trips.",
+    "Price": 58955.99,
+    "IDRPrice": 58955.99,
+    "RupiahPrice": 993086183.175
+  },
+  {
+    "Id": 40,
+    "Type": "EV Sedan",
+    "Brand": "Polestar",
+    "Name": "Toy Series 2 Polestar",
+    "Description": "All-electric sedan with fast charging, sharp handling, and minimalist interior. Efficient long-distance cruising.",
+    "Price": 36200.99,
+    "IDRPrice": 36200.99,
+    "RupiahPrice": 609110183.175
+  },
+  {
+    "Id": 41,
+    "Type": "ICE Hatchback",
+    "Brand": "Subaru",
+    "Name": "Toy Imprezza Sport Subaru",
+    "Description": "Compact hatchback with nimble handling, efficient gas engine, and practical cargo. Great for city driving.",
+    "Price": 26990.99,
+    "IDRPrice": 26990.99,
+    "RupiahPrice": 454217183.175
+  },
+  {
+    "Id": 42,
+    "Type": "ICE Hatchback",
+    "Brand": "Volkswagen",
+    "Name": "Toy Golf GTI Volkswagen",
+    "Description": "Sporty hatchback with turbo power, manual-friendly feel, and everyday usability. A classic hot hatch layout.",
+    "Price": 34590.00,
+    "IDRPrice": 34590.00,
+    "RupiahPrice": 581466750
+  },
+  {
+    "Id": 43,
+    "Type": "ICE SUV",
+    "Brand": "Subaru",
+    "Name": "Toy Ascent 8 Passenger Subaru",
+    "Description": "Three-row SUV with roomy seating and family-friendly comfort. Confident towing and all-weather capability.",
+    "Price": 47885.99,
+    "IDRPrice": 47885.99,
+    "RupiahPrice": 806021183.175
+  },
+  {
+    "Id": 44,
+    "Type": "ICE SUV",
+    "Brand": "Ford",
+    "Name": "Toy Expedition Ford",
+    "Description": "Full-size SUV with three-row seating, strong towing, and long-distance comfort. Built for family road trips.",
+    "Price": 62400.99,
+    "IDRPrice": 62400.99,
+    "RupiahPrice": 1049954183.175
+  },
+  {
+    "Id": 45,
+    "Type": "ICE Sedan",
+    "Brand": "Nissan",
+    "Name": "Toy Altima Midnight Edition Nissan",
+    "Description": "Midsize sedan with efficient gas engine, comfortable ride, and roomy cabin. A reliable daily commuter.",
+    "Price": 30980.99,
+    "IDRPrice": 30980.99,
+    "RupiahPrice": 520917183.175
+  },
+  {
+    "Id": 46,
+    "Type": "ICE SUV",
+    "Brand": "Chevrolet",
+    "Name": "Toy Blazer RS Chevy",
+    "Description": "Midsize SUV with sporty trim, comfortable ride, and versatile cargo. Suits commuting and family errands.",
+    "Price": 34300.99,
+    "IDRPrice": 34300.99,
+    "RupiahPrice": 577095183.175
+  },
+  {
+    "Id": 47,
+    "Type": "EV Sedan",
+    "Brand": "BMW",
+    "Name": "Toy i7 M70 BMW",
+    "Description": "All-electric luxury sedan with powerful performance and ultra-quiet ride. High-end materials and advanced driver aids.",
+    "Price": 170050.00,
+    "IDRPrice": 170050.00,
+    "RupiahPrice": 2861762500
+  },
+  {
+    "Id": 48,
+    "Type": "EV SUV",
+    "Brand": "Nissan",
+    "Name": "Toy Ariya B9 Nissan",
+    "Description": "All-electric SUV with modern styling, balanced range, and comfortable seating. Designed for daily commuting.",
+    "Price": 37000.99,
+    "IDRPrice": 37000.99,
+    "RupiahPrice": 622267183.175
+  },
+  {
+    "Id": 49,
+    "Type": "Hybrid SUV",
+    "Brand": "Hyundai",
+    "Name": "Toy Tucson Hybrid Hyundai",
+    "Description": "Hybrid compact SUV with strong fuel economy and flexible cargo. Comfortable for daily use and small families.",
+    "Price": 32450.99,
+    "IDRPrice": 32450.99,
+    "RupiahPrice": 546011183.175
+  },
+  {
+    "Id": 50,
+    "Type": "Commercial Van",
+    "Brand": "Nissan",
+    "Name": "Toy NV200 Vanette Nissan",
+    "Description": "Compact commercial van with efficient gas engine and configurable cargo. Built for deliveries and small business fleets.",
+    "Price": 18203.99,
+    "IDRPrice": 18203.99,
+    "RupiahPrice": 306312183.175
+  },
+  {
+    "Id": 51,
+    "Type": "ICE Sports",
+    "Brand": "BMW",
+    "Name": "Toy M8 Gran Coupe BMW",
+    "Description": "High-performance grand coupe with powerful engine and luxury interior. Balanced speed with long-distance comfort.",
+    "Price": 144500.99,
+    "IDRPrice": 144500.99,
+    "RupiahPrice": 2431104183.175
+  },
+  {
+    "Id": 52,
+    "Type": "ICE Crossover",
+    "Brand": "Subaru",
+    "Name": "Toy Crosstrek Limited Subaru",
+    "Description": "Compact crossover with available all-wheel drive and practical cargo space. Good mix of efficiency and versatility.",
+    "Price": 32995.99,
+    "IDRPrice": 32995.99,
+    "RupiahPrice": 555003183.175
+  },
+  {
+    "Id": 53,
+    "Type": "EV Sports Sedan",
+    "Brand": "Hyundai",
+    "Name": "Toy Ioniq 6N Hyundai",
+    "Description": "Sport-oriented electric sedan with fast acceleration and sharp handling. Performance-focused tuning with modern tech.",
+    "Price": 70350.00,
+    "IDRPrice": 70350.00,
+    "RupiahPrice": 1184062500
+  },
+  {
+    "Id": 54,
+    "Type": "ICE Sports",
+    "Brand": "Volkswagen",
+    "Name": "Toy Jetta GLI Volkswagen",
+    "Description": "Sporty compact sedan with turbo power and precise handling. Blends everyday comfort with spirited driving.",
+    "Price": 33745.99,
+    "IDRPrice": 33745.99,
+    "RupiahPrice": 568011183.175
+  },
+  {
+    "Id": 55,
+    "Type": "ICE Sedan",
+    "Brand": "Nissan",
+    "Name": "Toy Sentra SR Nissan",
+    "Description": "Compact sedan with efficient gas engine and comfortable ride. Practical choice for daily commuting.",
+    "Price": 25000.99,
+    "IDRPrice": 25000.99,
+    "RupiahPrice": 420624183.175
+  },
+  {
+    "Id": 56,
+    "Type": "ICE SUV",
+    "Brand": "Chevrolet",
+    "Name": "Toy Tahoe Z71 Chevy",
+    "Description": "Full-size SUV with off-road oriented trim, strong towing, and roomy cabin. Built for family travel and trail duty.",
+    "Price": 60700.99,
+    "IDRPrice": 60700.99,
+    "RupiahPrice": 1021454183.175
+  },
+  {
+    "Id": 57,
+    "Type": "EV Sedan",
+    "Brand": "Tesla",
+    "Name": "Toy Model S Tesla",
+    "Description": "All-electric luxury sedan with quick acceleration and long range. Smooth, quiet ride with premium tech.",
+    "Price": 30900.99,
+    "IDRPrice": 30900.99,
+    "RupiahPrice": 519677183.175
+  },
+  {
+    "Id": 58,
+    "Type": "Commercial Truck",
+    "Brand": "Ford",
+    "Name": "Toy CC CA Transit Cab Ford",
+    "Description": "Commercial cab and chassis truck for upfits and fleet work. Durable frame and configurable body options.",
+    "Price": 45490.99,
+    "IDRPrice": 45490.99,
+    "RupiahPrice": 764956183.175
+  },
+  {
+    "Id": 59,
+    "Type": "ICE Sports",
+    "Brand": "Nissan",
+    "Name": "Toy Fairlady Z Nissan",
+    "Description": "Two-door sports coupe with strong turbo power and rear-drive balance. Designed for spirited driving.",
+    "Price": 43000.99,
+    "IDRPrice": 43000.99,
+    "RupiahPrice": 723538183.175
+  },
+  {
+    "Id": 60,
+    "Type": "ICE Sports",
+    "Brand": "Chevrolet",
+    "Name": "Toy Corvette ZR1X Chevy",
+    "Description": "Mid-engine sports coupe with track-ready performance and sharp handling. Iconic styling with high output power.",
+    "Price": 209700.00,
+    "IDRPrice": 209700.00,
+    "RupiahPrice": 3526612500
+  },
+  {
+    "Id": 61,
+    "Type": "Hybrid SUV",
+    "Brand": "Kia",
+    "Name": "Toy Sorento Hybrid Kia",
+    "Description": "Hybrid three-row SUV with good fuel economy and flexible seating. Family-focused comfort with modern tech.",
+    "Price": 38890.99,
+    "IDRPrice": 38890.99,
+    "RupiahPrice": 655073183.175
+  },
+  {
+    "Id": 62,
+    "Type": "Hybrid SUV",
+    "Brand": "Hyundai",
+    "Name": "Toy Hybrid Santa Fe Hyundai",
+    "Description": "Hybrid midsize SUV with efficient powertrain and spacious cabin. Balanced for commuting and weekend trips.",
+    "Price": 36400.00,
+    "IDRPrice": 36400.00,
+    "RupiahPrice": 612406000
+  },
+  {
+    "Id": 63,
+    "Type": "ICE SUV",
+    "Brand": "Ford",
+    "Name": "Toy Explorer Active 100A Ford",
+    "Description": "Midsize SUV with family seating, confident power, and available all-wheel drive. Comfortable for daily use.",
+    "Price": 41650.99,
+    "IDRPrice": 41650.99,
+    "RupiahPrice": 700466183.175
+  },
+  {
+    "Id": 64,
+    "Type": "Commercial Van",
+    "Brand": "Nissan",
+    "Name": "Toy Caravan Nissan",
+    "Description": "Commercial van with large cargo space and practical loading height. Built for deliveries and passenger conversions.",
+    "Price": 21345.99,
+    "IDRPrice": 21345.99,
+    "RupiahPrice": 359072183.175
+  },
+  {
+    "Id": 65,
+    "Type": "EV SUV",
+    "Brand": "Rivian",
+    "Name": "Toy R1S Rivian",
+    "Description": "All-electric three-row SUV with strong torque and rugged styling. Roomy cabin and adventure-ready features.",
+    "Price": 76900.99,
+    "IDRPrice": 76900.99,
+    "RupiahPrice": 1293474183.175
+  },
+  {
+    "Id": 66,
+    "Type": "ICE Sports",
+    "Brand": "Chevrolet",
+    "Name": "Toy Corvette Stingray Chevy",
+    "Description": "Iconic sports coupe with V8 power and sharp, balanced handling. Built for performance driving.",
+    "Price": 70000.99,
+    "IDRPrice": 70000.99,
+    "RupiahPrice": 1177791833.175
+  },
+  {
+    "Id": 67,
+    "Type": "ICE Sedan",
+    "Brand": "Nissan",
+    "Name": "Toy Versa S Nissan",
+    "Description": "Subcompact sedan with efficient fuel use and easy city maneuvering. Simple, reliable transportation.",
+    "Price": 17390.99,
+    "IDRPrice": 17390.99,
+    "RupiahPrice": 292367183.175
+  },
+  {
+    "Id": 68,
+    "Type": "EV SUV",
+    "Brand": "BMW",
+    "Name": "Toy iX3 All Electric Vehicle BMW",
+    "Description": "All-electric compact SUV with efficient range and smooth ride. Modern tech and premium interior.",
+    "Price": 88500.99,
+    "IDRPrice": 88500.99,
+    "RupiahPrice": 1488574183.175
+  },
+  {
+    "Id": 69,
+    "Type": "ICE SUV",
+    "Brand": "Volkswagen",
+    "Name": "Toy Atlas Volkswagen",
+    "Description": "Midsize SUV with roomy seating and versatile cargo. Comfortable for families and road trips.",
+    "Price": 39310.00,
+    "IDRPrice": 39310.00,
+    "RupiahPrice": 661073250
+  },
+  {
+    "Id": 70,
+    "Type": "EV SUV",
+    "Brand": "Volvo",
+    "Name": "Toy EX90 Electric Volvo",
+    "Description": "All-electric three-row SUV with modern safety tech and quiet ride. Designed for family travel and efficiency.",
+    "Price": 81290.99,
+    "IDRPrice": 81290.99,
+    "RupiahPrice": 1367134183.175
+  },
+  {
+    "Id": 71,
+    "Type": "Hybrid Sedan",
+    "Brand": "Hyundai",
+    "Name": "Toy Elantra Hybrid Hyundai",
+    "Description": "Hybrid compact sedan with excellent fuel economy and comfortable ride. Practical for daily commuting.",
+    "Price": 25450.99,
+    "IDRPrice": 25450.99,
+    "RupiahPrice": 428204183.175
+  },
+  {
+    "Id": 72,
+    "Type": "EV SUV",
+    "Brand": "Volkswagen",
+    "Name": "Toy ID-4 Volkswagen",
+    "Description": "All-electric compact SUV with efficient range and versatile interior. Smooth, quiet power delivery.",
+    "Price": 45095.00,
+    "IDRPrice": 45095.00,
+    "RupiahPrice": 758857375
+  },
+  {
+    "Id": 73,
+    "Type": "Plug-In Hybrid SUV",
+    "Brand": "Volvo",
+    "Name": "Toy XC60 Plug-In Hybrid Volvo",
+    "Description": "Plug-in hybrid SUV with electric-only driving capability and efficient gas backup. Premium comfort and safety features.",
+    "Price": 63345.99,
+    "IDRPrice": 63345.99,
+    "RupiahPrice": 106579183.175
+  },
+  {
+    "Id": 74,
+    "Type": "ICE SUV",
+    "Brand": "Ford",
+    "Name": "Toy Bronco Base Ford",
+    "Description": "Rugged off-road SUV with removable roof options and strong 4x4 hardware. Built for trails and adventure.",
+    "Price": 39995.99,
+    "IDRPrice": 39995.99,
+    "RupiahPrice": 672995183.175
+  },
+  {
+    "Id": 75,
+    "Type": "ICE Sports",
+    "Brand": "Porsche",
+    "Name": "Toy 911 Carrera Cabriolet Porsche",
+    "Description": "Performance convertible with rear-drive balance and open-top driving. Strong acceleration and crisp handling.",
+    "Price": 148080.99,
+    "IDRPrice": 148080.99,
+    "RupiahPrice": 2490734183.175
+  },
+  {
+    "Id": 76,
+    "Type": "EV Commercial Van",
+    "Brand": "Chevrolet",
+    "Name": "Toy Brightdrop EV Truck Chevy",
+    "Description": "All-electric commercial van with large cargo volume and low operating costs. Ideal for delivery fleets.",
+    "Price": 75300.00,
+    "IDRPrice": 75300.00,
+    "RupiahPrice": 1266612500
+  },
+  {
+    "Id": 77,
+    "Type": "ICE SUV",
+    "Brand": "Kia",
+    "Name": "Toy Telluride Kia",
+    "Description": "Three-row SUV with spacious cabin, strong towing, and family-friendly features. Comfortable for long trips.",
+    "Price": 39190.99,
+    "IDRPrice": 39190.99,
+    "RupiahPrice": 659295183.175
+  },
+  {
+    "Id": 78,
+    "Type": "ICE Pickup",
+    "Brand": "Nissan",
+    "Name": "Toy Frontier Nissan",
+    "Description": "Midsize pickup with proven durability, usable bed, and off-road capability. Balanced for work and daily use.",
+    "Price": 37000.00,
+    "IDRPrice": 37000.00,
+    "RupiahPrice": 622525000
+  },
+  {
+    "Id": 79,
+    "Type": "Hybrid Hatchback",
+    "Brand": "Nissan",
+    "Name": "Toy Notes Aura Nissan",
+    "Description": "Hybrid hatchback with efficient city driving and compact footprint. Easy to park and economical to run.",
+    "Price": 18898.99,
+    "IDRPrice": 18898.99,
+    "RupiahPrice": 317825183.175
+  },
+  {
+    "Id": 80,
+    "Type": "EV SUV",
+    "Brand": "Kia",
+    "Name": "Toy EV9 Kia",
+    "Description": "All-electric three-row SUV with strong range and modern tech. Family-focused comfort and safety.",
+    "Price": 54900.00,
+    "IDRPrice": 54900.00,
+    "RupiahPrice": 923692500
+  },
+  {
+    "Id": 81,
+    "Type": "Plug-In Hybrid Sports Sedan",
+    "Brand": "Porsche",
+    "Name": "Toy Panamera Turbo Hybrid Porsche",
+    "Description": "Plug-in hybrid sports sedan with strong power and refined handling. Combines electric efficiency with performance.",
+    "Price": 214700.99,
+    "IDRPrice": 214700.99,
+    "RupiahPrice": 3611914183.175
+  },
+  {
+    "Id": 82,
+    "Type": "ICE SUV",
+    "Brand": "Volvo",
+    "Name": "Toy V60 Volvo",
+    "Description": "Luxury midsize wagon with Scandinavian design, strong safety systems, and smooth mild-hybrid performance.",
+    "Price": 51995.00,
+    "IDRPrice": 51995.00,
+    "RupiahPrice": 873000000
+  },
+  {
+    "Id": 83,
+    "Type": "EV Sedan",
+    "Brand": "Tesla",
+    "Name": "Toy Model 3 Tesla",
+    "Description": "All-electric compact sedan with quick acceleration and minimalist interior. Efficient for city and highway driving.",
+    "Price": 37900.00,
+    "IDRPrice": 37900.00,
+    "RupiahPrice": 638667500
+  },
+  {
+    "Id": 84,
+    "Type": "EV Wagon",
+    "Brand": "Volkswagen",
+    "Name": "Toy ID-7 Tourer Volkswagen",
+    "Description": "All-electric wagon with extended cargo space and efficient range. Comfortable long-distance touring.",
+    "Price": 64825.99,
+    "IDRPrice": 64825.99,
+    "RupiahPrice": 1089951833.175
+  },
+  {
+    "Id": 85,
+    "Type": "EV Performance Crossover",
+    "Brand": "Hyundai",
+    "Name": "Toy Ioniq 5N Hyundai",
+    "Description": "Performance-oriented electric crossover with rapid acceleration and track-ready tuning. Aggressive styling and modern tech.",
+    "Price": 66200.99,
+    "IDRPrice": 66200.99,
+    "RupiahPrice": 1114261833.175
+  },
+  {
+    "Id": 86,
+    "Type": "EV SUV",
+    "Brand": "Ford",
+    "Name": "Toy Mach-E Mustang",
+    "Description": "All-electric crossover with sporty handling and spacious cabin. Strong torque and practical cargo space.",
+    "Price": 37795.99,
+    "IDRPrice": 37795.99,
+    "RupiahPrice": 637011183.175
+  },
+  {
+    "Id": 87,
+    "Type": "EV Crossover",
+    "Brand": "Kia",
+    "Name": "Toy EV6 Kia",
+    "Description": "All-electric crossover with fast charging and roomy interior. Balanced ride and modern driver assists.",
+    "Price": 38900.00,
+    "IDRPrice": 38900.00,
+    "RupiahPrice": 654082500
+  },
+  {
+    "Id": 88,
+    "Type": "EV SUV",
+    "Brand": "Lucid",
+    "Name": "Toy Gravity Grand Touring Lucid",
+    "Description": "All-electric full-size SUV with spacious cabin and long-range focus. Quiet power and advanced tech.",
+    "Price": 94900.00,
+    "IDRPrice": 94900.00,
+    "RupiahPrice": 1596625000
+  },
+  {
+    "Id": 89,
+    "Type": "ICE Sports",
+    "Brand": "Subaru",
+    "Name": "Toy BRZ tS Subaru",
+    "Description": "Lightweight sports coupe with sharp handling and rear-drive balance. Built for driver engagement.",
+    "Price": 38360.99,
+    "IDRPrice": 38360.99,
+    "RupiahPrice": 645973183.175
+  },
+  {
+    "Id": 90,
+    "Type": "EV Pickup",
+    "Brand": "Chevrolet",
+    "Name": "Toy Silverardo Trail EV Chevy",
+    "Description": "All-electric full-size pickup with strong torque and towing capability. Designed for work and adventure.",
+    "Price": 55895.00,
+    "IDRPrice": 55895.00,
+    "RupiahPrice": 939753750
+  },
+  {
+    "Id": 91,
+    "Type": "ICE Hatchback",
+    "Brand": "Kia",
+    "Name": "Toy Soul Kia",
+    "Description": "Compact hatchback with efficient gas engine and flexible cargo. Easy to maneuver in urban areas.",
+    "Price": 20490.99,
+    "IDRPrice": 20490.99,
+    "RupiahPrice": 344668183.175
+  },
+  {
+    "Id": 92,
+    "Type": "ICE Sports",
+    "Brand": "Hyundai",
+    "Name": "Toy Elantra N Hyundai",
+    "Description": "Sport compact sedan with turbo power and track-tuned suspension. Lively performance with daily usability.",
+    "Price": 35100.99,
+    "IDRPrice": 35100.99,
+    "RupiahPrice": 590446183.175
+  },
+  {
+    "Id": 93,
+    "Type": "ICE Pickup",
+    "Brand": "Ford",
+    "Name": "Toy Raptor Ranger Ford",
+    "Description": "Mid-size pickup with off-road oriented trim and strong towing. Built for rugged use and hauling.",
+    "Price": 59360.99,
+    "IDRPrice": 59360.99,
+    "RupiahPrice": 998661183.175
+  },
+  {
+    "Id": 94,
+    "Type": "EV Van",
+    "Brand": "Volkswagen",
+    "Name": "Toy ID-Buzz Volkswagen",
+    "Description": "All-electric van with spacious interior and flexible seating. Ideal for families or shuttle duty.",
+    "Price": 59995.99,
+    "IDRPrice": 59995.99,
+    "RupiahPrice": 1008874183.175
+  },
+  {
+    "Id": 95,
+    "Type": "Plug-In Hybrid SUV",
+    "Brand": "BMW",
+    "Name": "Toy XM Label Plug-In Hybrid BMW",
+    "Description": "Plug-in hybrid performance SUV with high output and luxury features. Combines electric driving with V8 power.",
+    "Price": 131650.99,
+    "IDRPrice": 131650.99,
+    "RupiahPrice": 2215634183.175
+  },
+  {
+    "Id": 96,
+    "Type": "EV SUV",
+    "Brand": "Chevrolet",
+    "Name": "Toy Equinox EV Chevy",
+    "Description": "All-electric compact SUV with practical range and roomy cabin. Smooth ride and modern tech.",
+    "Price": 34995.99,
+    "IDRPrice": 34995.99,
+    "RupiahPrice": 588624183.175
+  },
+  {
+    "Id": 97,
+    "Type": "ICE SUV",
+    "Brand": "Nissan",
+    "Name": "Toy Rogue Armor Nissan",
+    "Description": "Compact SUV with comfortable ride and flexible cargo space. Suited for daily driving and road trips.",
+    "Price": 32940.99,
+    "IDRPrice": 32940.99,
+    "RupiahPrice": 554073183.175
+  },
+  {
+    "Id": 98,
+    "Type": "Hybrid SUV",
+    "Brand": "Subaru",
+    "Name": "Toy Forester Sport Hybrid Subaru",
+    "Description": "Hybrid compact SUV with good fuel economy and standard all-wheel drive. Practical for families and outdoors.",
+    "Price": 39595.99,
+    "IDRPrice": 39595.99,
+    "RupiahPrice": 666086183.175
+  },
+  {
+    "Id": 99,
+    "Type": "ICE Sports",
+    "Brand": "Nissan",
+    "Name": "Toy Skyline Nissan",
+    "Description": "Sporty sedan with turbo power and rear-drive balance. Designed for enthusiastic driving.",
+    "Price": 38000.99,
+    "IDRPrice": 38000.99,
+    "RupiahPrice": 639036183.175
+  },
+  {
+    "Id": 100,
+    "Type": "ICE Sports",
+    "Brand": "Subaru",
+    "Name": "Toy WRX GT Subaru",
+    "Description": "Performance sedan with turbo power, all-wheel drive, and sharp handling. Built for spirited road use.",
+    "Price": 45995.99,
+    "IDRPrice": 45995.99,
+    "RupiahPrice": 774000000
+  },
+  {
+    "Id": 101,
+    "Type": "Commercial Truck",
+    "Brand": "Ford",
+    "Name": "Toy F-650 Frame Ford",
+    "Description": "Medium-duty commercial truck with heavy-duty frame and strong payload. Built for vocational and fleet work.",
+    "Price": 69995.99,
+    "IDRPrice": 69995.99,
+    "RupiahPrice": 1177491833.175
+  }
+]
